@@ -12,8 +12,8 @@ public class UtageRecieveMessageSample : MonoBehaviour
 {
     public AdvEngine engine;            //Advエンジン本体
     public TMP_InputField inputFiled;       //テキスト入力用のオブジェクト
-    public TextMeshProUGUI NameExplanation; //名前入力してくださいの説明
-    public string scenarioLabel;
+    public TextMeshProUGUI NameExplanation; //名前入力してくださいの説明1文
+    public string scenarioLabel; //指定のシナリオラベルの入力
 
     void Awake()
     {
@@ -61,7 +61,7 @@ public class UtageRecieveMessageSample : MonoBehaviour
     //設定された入力フィールドを有効化
     void InputFileld(AdvCommandSendMessage command)
     {
-        //NameExplanation
+        //名前入力してくださいの説明1文
         NameExplanation.text =　"名前を入力ください";
 
 
@@ -81,14 +81,14 @@ public class UtageRecieveMessageSample : MonoBehaviour
         inputFiled.gameObject.SetActive(false);
     }
 
-
+    //OKボタン
     public void OKButton()
     {
         StartCoroutine( CoTalk() );
 
     }
 
-    //Name_Outというラベルに飛ぶ
+    //指定のシナリオラベルに飛ぶ
     IEnumerator CoTalk()
     {
         //「宴」のシナリオを呼び出す

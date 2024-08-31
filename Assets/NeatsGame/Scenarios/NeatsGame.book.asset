@@ -36,6 +36,126 @@ MonoBehaviour:
     - rowIndex: 1
       debugIndex: 2
       strings:
+      - '*Event_ADV_01'
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 3
+      strings:
+      - 
+      - "\u4E3B\u4EBA\u516C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "Event_ADV_01\u306B\u3068\u3093\u3060"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 4
+      strings:
+      - 
+      - "\u4E3B\u4EBA\u516C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u304A\u3081\u3067\u3068\u3046\u3046"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 8
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 5
+      debugIndex: 10
+      strings:
+      - '*Event_ADV_02'
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 6
+      debugIndex: 11
+      strings:
+      - 
+      - "\u4E3B\u4EBA\u516C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "Event_ADV_02\u306B\u3068\u3093\u3060"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 12
+      strings:
+      - 
+      - "\u4E3B\u4EBA\u516C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u304A\u3081\u3067\u3068\u3046\u3046"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 8
+      debugIndex: 15
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Event_ADV
+    type: 1
+    textLength: 170
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
+    entityIndexTbl: 
+    entityDataList: []
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Command
+      - Arg1
+      - Arg2
+      - Arg3
+      - Arg4
+      - Arg5
+      - Arg6
+      - WaitType
+      - Text
+      - PageCtrl
+      - Voice
+      - WindowType
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 2
+      strings:
       - '*OP_ADV'
       - 
       - 
@@ -163,14 +283,15 @@ MonoBehaviour:
       - 
       - 
       - "\u540D\u524D\u306F <param=player_name> \u3067\u3059\u304C\u3001\u3088\u308D\u3057\u3044\u3067\u3057\u3087\u3046\u304B\uFF1F"
+      - Next
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 13
-      debugIndex: 21
+      debugIndex: 20
       strings:
       - Selection
-      - '*OP_ADV'
+      - '*End'
       - 
       - 
       - 
@@ -182,7 +303,7 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 14
-      debugIndex: 22
+      debugIndex: 21
       strings:
       - Selection
       - '*Name_In'
@@ -197,7 +318,36 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 15
-      debugIndex: 24
+      debugIndex: 23
+      strings:
+      - PauseScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 16
+      debugIndex: 25
+      strings:
+      - '*End'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 17
+      debugIndex: 27
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u304A\u3057\u307E\u3044"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 18
+      debugIndex: 29
       strings:
       - EndScenario
       isEmpty: 0
@@ -205,7 +355,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Start
     type: 1
-    textLength: 332
+    textLength: 354
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
     entityIndexTbl: 
@@ -668,6 +818,170 @@ MonoBehaviour:
     - rowIndex: 2
       debugIndex: 2
       strings:
+      - '*Event_ADV_01'
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - 
+      - "\u4E3B\u4EBA\u516C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "Event_ADV_01\u306B\u3068\u3093\u3060"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
+      - 
+      - "\u4E3B\u4EBA\u516C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u304A\u3081\u3067\u3068\u3046\u3046"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 5
+      debugIndex: 5
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 6
+      debugIndex: 6
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 7
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 8
+      debugIndex: 8
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 9
+      debugIndex: 9
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 10
+      debugIndex: 10
+      strings:
+      - '*Event_ADV_02'
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 11
+      debugIndex: 11
+      strings:
+      - 
+      - "\u4E3B\u4EBA\u516C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "Event_ADV_02\u306B\u3068\u3093\u3060"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 12
+      debugIndex: 12
+      strings:
+      - 
+      - "\u4E3B\u4EBA\u516C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u304A\u3081\u3067\u3068\u3046\u3046"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 13
+      debugIndex: 13
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 14
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 15
+      debugIndex: 15
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Event_ADV
+    type: 1
+    textLength: 170
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Command
+      - Arg1
+      - Arg2
+      - Arg3
+      - Arg4
+      - Arg5
+      - Arg6
+      - WaitType
+      - Text
+      - PageCtrl
+      - Voice
+      - WindowType
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
       - '*OP_ADV'
       - 
       - 
@@ -831,20 +1145,15 @@ MonoBehaviour:
       - 
       - 
       - "\u540D\u524D\u306F <param=player_name> \u3067\u3059\u304C\u3001\u3088\u308D\u3057\u3044\u3067\u3057\u3087\u3046\u304B\uFF1F"
+      - Next
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 20
       debugIndex: 20
-      strings: []
-      isEmpty: 1
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 21
-      debugIndex: 21
       strings:
       - Selection
-      - '*OP_ADV'
+      - '*End'
       - 
       - 
       - 
@@ -855,8 +1164,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 22
-      debugIndex: 22
+    - rowIndex: 21
+      debugIndex: 21
       strings:
       - Selection
       - '*Name_In'
@@ -870,14 +1179,61 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 23
-      debugIndex: 23
+    - rowIndex: 22
+      debugIndex: 22
       strings: []
       isEmpty: 1
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 23
+      debugIndex: 23
+      strings:
+      - PauseScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     - rowIndex: 24
       debugIndex: 24
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 25
+      debugIndex: 25
+      strings:
+      - '*End'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 26
+      debugIndex: 26
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 27
+      debugIndex: 27
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u304A\u3057\u307E\u3044"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 28
+      debugIndex: 28
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 29
+      debugIndex: 29
       strings:
       - EndScenario
       isEmpty: 0
@@ -885,6 +1241,6 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Start
     type: 1
-    textLength: 332
+    textLength: 354
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
