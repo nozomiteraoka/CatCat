@@ -34,7 +34,27 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 1
-      debugIndex: 1
+      debugIndex: 2
+      strings:
+      - '*OP_ADV'
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 3
+      strings:
+      - Bg
+      - "\u80CC\u666F\u305D\u306E1"
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 4
       strings:
       - 
       - 
@@ -48,8 +68,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 2
-      debugIndex: 2
+    - rowIndex: 4
+      debugIndex: 5
       strings:
       - 
       - 
@@ -59,12 +79,125 @@ MonoBehaviour:
       - 
       - 
       - 
-      - Template Scenario End
+      - "\u3053\u3053\u306F\u3010Lavel\u3011OP_ADV\u306E\u30B7\u30FC\u30F3\u3067\u3059\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 3
-      debugIndex: 3
+    - rowIndex: 5
+      debugIndex: 6
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3053\u3053\u306BOP_ADV\u306E\u30B9\u30C8\u30FC\u30EA\u30FC\u3092\u8A18\u8F09\u3057\u307E\u3059\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 6
+      debugIndex: 10
+      strings:
+      - '*Name_In'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 11
+      strings:
+      - Bg
+      - "\u80CC\u666F\u305D\u306E2"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 8
+      debugIndex: 12
+      strings:
+      - HideMessageWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 9
+      debugIndex: 13
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u5165\u529B\u30D5\u30A3\u30FC\u30EB\u30C9\u3092\u8868\u793A\u3057\u3066\u3001\u5165\u529B\u3092\u5F85\u3061\u307E\u3059"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 10
+      debugIndex: 14
+      strings:
+      - SendMessage
+      - InputFileld
+      - player_name
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 11
+      debugIndex: 17
+      strings:
+      - '*Name_Out'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 12
+      debugIndex: 19
+      strings:
+      - 
+      - "\u4E3B\u4EBA\u516C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u540D\u524D\u306F <param=player_name> \u3067\u3059\u304C\u3001\u3088\u308D\u3057\u3044\u3067\u3057\u3087\u3046\u304B\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 13
+      debugIndex: 21
+      strings:
+      - Selection
+      - '*OP_ADV'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u306F\u3044"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 22
+      strings:
+      - Selection
+      - '*Name_In'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3044\u3044\u3048"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 15
+      debugIndex: 24
       strings:
       - EndScenario
       isEmpty: 0
@@ -72,7 +205,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Start
     type: 1
-    textLength: 121
+    textLength: 332
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
     entityIndexTbl: 
@@ -106,9 +239,17 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "\u4E3B\u4EBA\u516C"
+      - <param=player_name>
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Character
     type: 1
-    textLength: 166
+    textLength: 188
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
   - rows:
@@ -134,9 +275,39 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "\u80CC\u666F\u305D\u306E1"
+      - Bg
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - bg01.jpg
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - "\u80CC\u666F\u305D\u306E2"
+      - Bg
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - bg02.jpg
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Texture
     type: 1
-    textLength: 112
+    textLength: 142
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
   - rows:
@@ -372,9 +543,18 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - player_name
+      - String
+      - "\u4E3B\u4EBA\u516C"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Param
     type: 1
-    textLength: 50
+    textLength: 70
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
   - rows:
@@ -482,6 +662,36 @@ MonoBehaviour:
       - 
       - 
       - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - '*OP_ADV'
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - Bg
+      - "\u80CC\u666F\u305D\u306E1"
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
+      - 
+      - 
+      - 
+      - 
       - 
       - 
       - 
@@ -490,8 +700,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 2
-      debugIndex: 2
+    - rowIndex: 5
+      debugIndex: 5
       strings:
       - 
       - 
@@ -501,12 +711,173 @@ MonoBehaviour:
       - 
       - 
       - 
-      - Template Scenario End
+      - "\u3053\u3053\u306F\u3010Lavel\u3011OP_ADV\u306E\u30B7\u30FC\u30F3\u3067\u3059\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 3
-      debugIndex: 3
+    - rowIndex: 6
+      debugIndex: 6
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3053\u3053\u306BOP_ADV\u306E\u30B9\u30C8\u30FC\u30EA\u30FC\u3092\u8A18\u8F09\u3057\u307E\u3059\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 7
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 8
+      debugIndex: 8
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 9
+      debugIndex: 9
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 10
+      debugIndex: 10
+      strings:
+      - '*Name_In'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 11
+      debugIndex: 11
+      strings:
+      - Bg
+      - "\u80CC\u666F\u305D\u306E2"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 12
+      debugIndex: 12
+      strings:
+      - HideMessageWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 13
+      debugIndex: 13
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u5165\u529B\u30D5\u30A3\u30FC\u30EB\u30C9\u3092\u8868\u793A\u3057\u3066\u3001\u5165\u529B\u3092\u5F85\u3061\u307E\u3059"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 14
+      strings:
+      - SendMessage
+      - InputFileld
+      - player_name
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 15
+      debugIndex: 15
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 16
+      debugIndex: 16
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 17
+      debugIndex: 17
+      strings:
+      - '*Name_Out'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 18
+      debugIndex: 18
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 19
+      debugIndex: 19
+      strings:
+      - 
+      - "\u4E3B\u4EBA\u516C"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u540D\u524D\u306F <param=player_name> \u3067\u3059\u304C\u3001\u3088\u308D\u3057\u3044\u3067\u3057\u3087\u3046\u304B\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 20
+      debugIndex: 20
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 21
+      debugIndex: 21
+      strings:
+      - Selection
+      - '*OP_ADV'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u306F\u3044"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 22
+      debugIndex: 22
+      strings:
+      - Selection
+      - '*Name_In'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3044\u3044\u3048"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 23
+      debugIndex: 23
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 24
+      debugIndex: 24
       strings:
       - EndScenario
       isEmpty: 0
@@ -514,6 +885,6 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Start
     type: 1
-    textLength: 121
+    textLength: 332
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
