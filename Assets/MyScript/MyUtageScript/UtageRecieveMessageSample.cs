@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 using Utage;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// ADV用SendMessageコマンドから送られたメッセージを受け取る処理のサンプル
@@ -31,6 +32,9 @@ public class UtageRecieveMessageSample : MonoBehaviour
             case "InputFileld":
                 InputFileld(command);
                 break;
+            case "SceneTransition":
+                SceneTransition(command);
+                break;
             default:
                 Debug.Log("Unknown Message:" + command.Name );
                 break;
@@ -56,6 +60,13 @@ public class UtageRecieveMessageSample : MonoBehaviour
     void DebugLog(AdvCommandSendMessage command)
     {
         Debug.Log(command.Arg2);
+    }
+
+    //Sceneの遷移
+    void SceneTransition(AdvCommandSendMessage command)
+    {
+        //Debug.Log("command.Arg2");
+        SceneManager.LoadScene("TrainingGame");
     }
 
     //設定された入力フィールドを有効化

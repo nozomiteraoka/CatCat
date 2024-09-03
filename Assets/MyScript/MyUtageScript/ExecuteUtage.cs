@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class ExecuteUtage : MonoBehaviour
 {
+    //ここのシーンを通過したか否か　false
+    public static bool isClear = false;
+
     // 他シーンのUtage呼び出し
     public void Execute(string utageSceneName, string label)
     {
@@ -31,6 +34,8 @@ public class ExecuteUtage : MonoBehaviour
     // シナリオの呼び出しCorotine
     private IEnumerator ExecuteScenarioCoroutine(string utageSceneName)
     {
+        isClear = true;　//ここのシーンを通過したか否か　true
+
         IsSceneLoaded = false;
         SceneManager.LoadScene(utageSceneName);
         yield return new WaitUntil(() => IsSceneLoaded);

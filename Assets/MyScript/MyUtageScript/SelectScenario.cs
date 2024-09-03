@@ -10,10 +10,22 @@ public class SelectScenario : MonoBehaviour
     [SerializeField] public UtageUguiMainGame MainGame;
 
 
-    private void Start()
-    {
-        StartCoroutine(Execute());
+
+    private　void Start() {
+        
+        //育成ゲームを通過していればシーンラベルを飛ばすのを実行する
+        if(ExecuteUtage.isClear == true){
+            
+            StartCoroutine(Execute());
+            Title.Close();
+
+        }else{
+            
+            Debug.Log("育成ゲームを通過していないよ");
+        }
+
     }
+
 
     // シナリオを呼び出す
     private IEnumerator Execute()
