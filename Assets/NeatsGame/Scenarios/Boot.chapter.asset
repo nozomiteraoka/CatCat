@@ -52,9 +52,25 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - NAVI
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - story_icon.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Character
     type: 1
-    textLength: 188
+    textLength: 206
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
   - rows:
@@ -110,9 +126,66 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
+      - "\u30B9\u30C8\u30FC\u30EA\u30FC\u80CC\u666F01"
+      - Bg
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - storybg_01.jpg
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 5
+      debugIndex: 5
+      strings:
+      - "\u30B9\u30C8\u30FC\u30EA\u30FC\u80CC\u666F02"
+      - Bg
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - storybg_02.jpg
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 6
+      debugIndex: 6
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 7
+      strings:
+      - "\u30ED\u30B4"
+      - Sprite
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - neatgame.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Texture
     type: 1
-    textLength: 142
+    textLength: 212
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
   - rows:
@@ -322,9 +395,33 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "NAVI\u306EBGM"
+      - 
+      - Bgm
+      - navibgm.mp3
+      - 
+      - .4
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - "\u65B0\u4EBA\u306EBGM"
+      - 
+      - Bgm
+      - neatstory.mp3
+      - 
+      - .4
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Sound
     type: 1
-    textLength: 37
+    textLength: 85
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
   - rows:
