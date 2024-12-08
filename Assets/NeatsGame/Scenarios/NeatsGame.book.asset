@@ -1369,6 +1369,8 @@ MonoBehaviour:
       - 
       - "\u4ECA\u65E5\u306E\u3053\u3068\u3092\u65E5\u8A18\u306B\u8A18\u9332\u3057\u307E\u3059\u304B\uFF1F"
       - Next
+      - 
+      - MessageWindow
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -1489,7 +1491,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Start
     type: 1
-    textLength: 2015
+    textLength: 2028
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
     entityIndexTbl: 
@@ -4045,6 +4047,8 @@ MonoBehaviour:
       - 
       - "\u4ECA\u65E5\u306E\u3053\u3068\u3092\u65E5\u8A18\u306B\u8A18\u9332\u3057\u307E\u3059\u304B\uFF1F"
       - Next
+      - 
+      - MessageWindow
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4183,6 +4187,6 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Start
     type: 1
-    textLength: 2015
+    textLength: 2028
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
