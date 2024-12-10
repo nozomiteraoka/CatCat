@@ -70,8 +70,8 @@ MonoBehaviour:
     - rowIndex: 4
       debugIndex: 7
       strings:
-      - Sprite
-      - "\u30A2\u30D7\u30EA"
+      - BgEvent
+      - "\u30D0\u30C3\u30C1_01"
       - 
       - 
       isEmpty: 0
@@ -88,19 +88,6 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 6
-      debugIndex: 9
-      strings:
-      - Tween
-      - "\u30A2\u30D7\u30EA"
-      - MoveTo
-      - y=120 time=1
-      - 
-      - 
-      - PageWait
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 7
       debugIndex: 10
       strings:
       - Wait
@@ -113,7 +100,7 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 8
+    - rowIndex: 7
       debugIndex: 12
       strings:
       - 
@@ -131,18 +118,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 9
+    - rowIndex: 8
       debugIndex: 14
-      strings:
-      - SpriteOff
-      - "\u30A2\u30D7\u30EA"
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 10
-      debugIndex: 15
       strings:
       - 
       - NAVI
@@ -156,8 +133,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 11
-      debugIndex: 16
+    - rowIndex: 9
+      debugIndex: 15
       strings:
       - 
       - NAVI
@@ -171,8 +148,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 12
-      debugIndex: 19
+    - rowIndex: 10
+      debugIndex: 18
       strings:
       - FadeOut
       - black
@@ -184,7 +161,17 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 13
+    - rowIndex: 11
+      debugIndex: 19
+      strings:
+      - BgEventOff
+      - "\u30D0\u30C3\u30C1_01"
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 12
       debugIndex: 20
       strings:
       - Wait
@@ -197,7 +184,7 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 14
+    - rowIndex: 13
       debugIndex: 21
       strings:
       - Jump
@@ -207,7 +194,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Batch
     type: 1
-    textLength: 350
+    textLength: 324
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
     entityIndexTbl: 
@@ -244,6 +231,16 @@ MonoBehaviour:
     - rowIndex: 2
       debugIndex: 3
       strings:
+      - Sprite
+      - "\u30D5\u30EC\u30FC\u30E0"
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 4
+      strings:
       - FadeIn
       - black
       - 
@@ -254,8 +251,18 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 3
+    - rowIndex: 4
       debugIndex: 5
+      strings:
+      - 
+      - "\u306B\u3044\u3068"
+      - M02
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 5
+      debugIndex: 6
       strings:
       - Bgm
       - "\u65B0\u4EBA\u306EBGM"
@@ -267,8 +274,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 4
-      debugIndex: 6
+    - rowIndex: 6
+      debugIndex: 7
       strings:
       - Wait
       - 
@@ -280,12 +287,12 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 5
-      debugIndex: 7
+    - rowIndex: 7
+      debugIndex: 8
       strings:
       - 
-      - "\uFF1F\uFF1F\uFF1F"
-      - <Character=NAVI><Off>
+      - "\u306B\u3044\u3068"
+      - 
       - 
       - 
       - 
@@ -298,12 +305,12 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 6
-      debugIndex: 8
+    - rowIndex: 8
+      debugIndex: 9
       strings:
       - 
-      - "\uFF1F\uFF1F\uFF1F"
-      - <Character=NAVI><Off>
+      - "\u306B\u3044\u3068"
+      - 
       - 
       - 
       - 
@@ -313,12 +320,12 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 7
-      debugIndex: 9
+    - rowIndex: 9
+      debugIndex: 10
       strings:
       - 
-      - "\uFF1F\uFF1F\uFF1F"
-      - <Character=NAVI><Off>
+      - "\u306B\u3044\u3068"
+      - 
       - 
       - 
       - 
@@ -328,12 +335,12 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 8
-      debugIndex: 10
+    - rowIndex: 10
+      debugIndex: 11
       strings:
       - 
-      - "\uFF1F\uFF1F\uFF1F"
-      - <Character=NAVI><Off>
+      - "\u306B\u3044\u3068"
+      - 
       - 
       - 
       - 
@@ -343,8 +350,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 9
-      debugIndex: 12
+    - rowIndex: 11
+      debugIndex: 13
       strings:
       - Selection
       - '*Story01_q4'
@@ -358,8 +365,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 10
-      debugIndex: 13
+    - rowIndex: 12
+      debugIndex: 14
       strings:
       - Selection
       - '*Story01_q5'
@@ -373,8 +380,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 11
-      debugIndex: 16
+    - rowIndex: 13
+      debugIndex: 17
       strings:
       - '*Story01_q4'
       - 
@@ -386,12 +393,12 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 12
-      debugIndex: 18
+    - rowIndex: 14
+      debugIndex: 19
       strings:
       - 
-      - "\uFF1F\uFF1F\uFF1F"
-      - <Character=NAVI><Off>
+      - "\u306B\u3044\u3068"
+      - Idle
       - 
       - 
       - 
@@ -401,16 +408,16 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 13
-      debugIndex: 20
+    - rowIndex: 15
+      debugIndex: 21
       strings:
       - Jump
       - '*Story01_q6'
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 14
-      debugIndex: 21
+    - rowIndex: 16
+      debugIndex: 22
       strings:
       - '*Story01_q5'
       - 
@@ -422,12 +429,12 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 15
-      debugIndex: 23
+    - rowIndex: 17
+      debugIndex: 24
       strings:
       - 
-      - "\uFF1F\uFF1F\uFF1F"
-      - <Character=NAVI><Off>
+      - "\u306B\u3044\u3068"
+      - Idle
       - 
       - 
       - 
@@ -437,16 +444,16 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 16
-      debugIndex: 25
+    - rowIndex: 18
+      debugIndex: 26
       strings:
       - Jump
       - '*Story01_q6'
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 17
-      debugIndex: 26
+    - rowIndex: 19
+      debugIndex: 27
       strings:
       - '*Story01_q6'
       - 
@@ -458,8 +465,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 18
-      debugIndex: 27
+    - rowIndex: 20
+      debugIndex: 28
       strings:
       - Wait
       - 
@@ -471,8 +478,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 19
-      debugIndex: 28
+    - rowIndex: 21
+      debugIndex: 29
       strings:
       - StopBgm
       - 
@@ -484,8 +491,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 20
-      debugIndex: 29
+    - rowIndex: 22
+      debugIndex: 30
       strings:
       - FadeOut
       - black
@@ -497,11 +504,11 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 21
-      debugIndex: 30
+    - rowIndex: 23
+      debugIndex: 31
       strings:
       - CharacterOff
-      - NAVI
+      - "\u306B\u3044\u3068"
       - 
       - 
       - 
@@ -510,8 +517,18 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 22
-      debugIndex: 31
+    - rowIndex: 24
+      debugIndex: 32
+      strings:
+      - SpriteOff
+      - "\u30D5\u30EC\u30FC\u30E0"
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 25
+      debugIndex: 33
       strings:
       - BgOff
       - 
@@ -523,8 +540,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 23
-      debugIndex: 32
+    - rowIndex: 26
+      debugIndex: 34
       strings:
       - Wait
       - 
@@ -536,8 +553,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 24
-      debugIndex: 33
+    - rowIndex: 27
+      debugIndex: 35
       strings:
       - 
       - 
@@ -554,8 +571,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 25
-      debugIndex: 34
+    - rowIndex: 28
+      debugIndex: 36
       strings:
       - Wait
       - 
@@ -567,8 +584,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 26
-      debugIndex: 35
+    - rowIndex: 29
+      debugIndex: 37
       strings:
       - HideMessageWindow
       - 
@@ -577,8 +594,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 27
-      debugIndex: 37
+    - rowIndex: 30
+      debugIndex: 39
       strings:
       - Jump
       - '*Batch_01'
@@ -590,8 +607,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 28
-      debugIndex: 39
+    - rowIndex: 31
+      debugIndex: 41
       strings:
       - '*Story01_q7'
       - 
@@ -603,8 +620,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 29
-      debugIndex: 40
+    - rowIndex: 32
+      debugIndex: 42
       strings:
       - Bg
       - "\u30B9\u30C8\u30FC\u30EA\u30FC\u80CC\u666F02"
@@ -613,8 +630,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 30
-      debugIndex: 41
+    - rowIndex: 33
+      debugIndex: 43
       strings:
       - FadeIn
       - black
@@ -626,8 +643,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 31
-      debugIndex: 42
+    - rowIndex: 34
+      debugIndex: 44
       strings:
       - Bgm
       - "NAVI\u306EBGM"
@@ -639,8 +656,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 32
-      debugIndex: 44
+    - rowIndex: 35
+      debugIndex: 46
       strings:
       - 
       - NAVI
@@ -649,8 +666,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 33
-      debugIndex: 45
+    - rowIndex: 36
+      debugIndex: 47
       strings:
       - Wait
       - 
@@ -662,8 +679,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 34
-      debugIndex: 46
+    - rowIndex: 37
+      debugIndex: 48
       strings:
       - Tween
       - NAVI
@@ -675,8 +692,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 35
-      debugIndex: 47
+    - rowIndex: 38
+      debugIndex: 49
       strings:
       - Wait
       - 
@@ -688,8 +705,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 36
-      debugIndex: 49
+    - rowIndex: 39
+      debugIndex: 51
       strings:
       - 
       - NAVI
@@ -706,8 +723,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 37
-      debugIndex: 50
+    - rowIndex: 40
+      debugIndex: 52
       strings:
       - 
       - NAVI
@@ -721,8 +738,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 38
-      debugIndex: 51
+    - rowIndex: 41
+      debugIndex: 53
       strings:
       - Wait
       - 
@@ -734,8 +751,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 39
-      debugIndex: 52
+    - rowIndex: 42
+      debugIndex: 54
       strings:
       - Selection
       - '*Story01_q8'
@@ -749,8 +766,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 40
-      debugIndex: 53
+    - rowIndex: 43
+      debugIndex: 55
       strings:
       - Selection
       - '*Story01_q8'
@@ -764,8 +781,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 41
-      debugIndex: 55
+    - rowIndex: 44
+      debugIndex: 57
       strings:
       - '*Story01_q8'
       - 
@@ -777,8 +794,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 42
-      debugIndex: 57
+    - rowIndex: 45
+      debugIndex: 59
       strings:
       - 
       - NAVI
@@ -792,8 +809,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 43
-      debugIndex: 58
+    - rowIndex: 46
+      debugIndex: 60
       strings:
       - 
       - NAVI
@@ -807,8 +824,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 44
-      debugIndex: 60
+    - rowIndex: 47
+      debugIndex: 62
       strings:
       - 
       - NAVI
@@ -822,8 +839,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 45
-      debugIndex: 62
+    - rowIndex: 48
+      debugIndex: 64
       strings:
       - Wait
       - 
@@ -835,8 +852,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 46
-      debugIndex: 63
+    - rowIndex: 49
+      debugIndex: 65
       strings:
       - Selection
       - '*End'
@@ -852,7 +869,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Story_01
     type: 1
-    textLength: 1112
+    textLength: 1022
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
     entityIndexTbl: 
@@ -2304,9 +2321,27 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - "\u306B\u3044\u3068"
+      - 
+      - 
+      - 0
+      - -20
+      - 
+      - 
+      - 2.5
+      - 
+      - neat_model.prefab
+      - 
+      - Custom
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Character
     type: 1
-    textLength: 206
+    textLength: 239
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
   - rows:
@@ -2470,9 +2505,51 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 12
+      debugIndex: 12
+      strings:
+      - "\u30D5\u30EC\u30FC\u30E0"
+      - Sprite
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - frame.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 13
+      debugIndex: 13
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 14
+      strings:
+      - "\u30D0\u30C3\u30C1_01"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - BatchEvent01.jpg
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Batch01.jpg
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Texture
     type: 1
-    textLength: 281
+    textLength: 338
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
   - rows:
@@ -2969,8 +3046,8 @@ MonoBehaviour:
     - rowIndex: 7
       debugIndex: 7
       strings:
-      - Sprite
-      - "\u30A2\u30D7\u30EA"
+      - BgEvent
+      - "\u30D0\u30C3\u30C1_01"
       - 
       - 
       isEmpty: 0
@@ -2989,14 +3066,11 @@ MonoBehaviour:
     - rowIndex: 9
       debugIndex: 9
       strings:
-      - Tween
-      - "\u30A2\u30D7\u30EA"
-      - MoveTo
-      - y=120 time=1
       - 
       - 
-      - PageWait
-      isEmpty: 0
+      - 
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 10
@@ -3053,10 +3127,15 @@ MonoBehaviour:
     - rowIndex: 14
       debugIndex: 14
       strings:
-      - SpriteOff
-      - "\u30A2\u30D7\u30EA"
+      - 
+      - NAVI
+      - <Character=NAVI><Off>
       - 
       - 
+      - 
+      - 
+      - 
+      - "\u7372\u5F97\u3057\u305F\u30D0\u30C3\u30C1\u306F\u3001\u30AE\u30E3\u30E9\u30EA\u30FC\u30DA\u30FC\u30B8\u306B\u3066\u78BA\u8A8D\u3067\u304D\u307E\u3059\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -3071,7 +3150,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u7372\u5F97\u3057\u305F\u30D0\u30C3\u30C1\u306F\u3001\u30AE\u30E3\u30E9\u30EA\u30FC\u30DA\u30FC\u30B8\u306B\u3066\u78BA\u8A8D\u3067\u304D\u307E\u3059\u3002"
+      - "\u5F15\u304D\u7D9A\u304D\u9811\u5F35\u3063\u3066\u304F\u3060\u3055\u3044\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -3079,15 +3158,10 @@ MonoBehaviour:
       debugIndex: 16
       strings:
       - 
-      - NAVI
-      - <Character=NAVI><Off>
       - 
       - 
       - 
-      - 
-      - 
-      - "\u5F15\u304D\u7D9A\u304D\u9811\u5F35\u3063\u3066\u304F\u3060\u3055\u3044\u3002"
-      isEmpty: 0
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 17
@@ -3103,16 +3177,6 @@ MonoBehaviour:
     - rowIndex: 18
       debugIndex: 18
       strings:
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 19
-      debugIndex: 19
-      strings:
       - FadeOut
       - black
       - 
@@ -3120,6 +3184,16 @@ MonoBehaviour:
       - 
       - 
       - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 19
+      debugIndex: 19
+      strings:
+      - BgEventOff
+      - "\u30D0\u30C3\u30C1_01"
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -3146,7 +3220,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Batch
     type: 1
-    textLength: 350
+    textLength: 324
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
   - rows:
@@ -3191,6 +3265,16 @@ MonoBehaviour:
     - rowIndex: 3
       debugIndex: 3
       strings:
+      - Sprite
+      - "\u30D5\u30EC\u30FC\u30E0"
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
       - FadeIn
       - black
       - 
@@ -3201,18 +3285,18 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 4
-      debugIndex: 4
-      strings:
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
-      isCommentOut: 0
-      debugInfo: 
     - rowIndex: 5
       debugIndex: 5
+      strings:
+      - 
+      - "\u306B\u3044\u3068"
+      - M02
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 6
+      debugIndex: 6
       strings:
       - Bgm
       - "\u65B0\u4EBA\u306EBGM"
@@ -3224,8 +3308,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 6
-      debugIndex: 6
+    - rowIndex: 7
+      debugIndex: 7
       strings:
       - Wait
       - 
@@ -3237,12 +3321,12 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 7
-      debugIndex: 7
+    - rowIndex: 8
+      debugIndex: 8
       strings:
       - 
-      - "\uFF1F\uFF1F\uFF1F"
-      - <Character=NAVI><Off>
+      - "\u306B\u3044\u3068"
+      - 
       - 
       - 
       - 
@@ -3255,12 +3339,12 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 8
-      debugIndex: 8
+    - rowIndex: 9
+      debugIndex: 9
       strings:
       - 
-      - "\uFF1F\uFF1F\uFF1F"
-      - <Character=NAVI><Off>
+      - "\u306B\u3044\u3068"
+      - 
       - 
       - 
       - 
@@ -3270,12 +3354,12 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 9
-      debugIndex: 9
+    - rowIndex: 10
+      debugIndex: 10
       strings:
       - 
-      - "\uFF1F\uFF1F\uFF1F"
-      - <Character=NAVI><Off>
+      - "\u306B\u3044\u3068"
+      - 
       - 
       - 
       - 
@@ -3285,12 +3369,12 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 10
-      debugIndex: 10
+    - rowIndex: 11
+      debugIndex: 11
       strings:
       - 
-      - "\uFF1F\uFF1F\uFF1F"
-      - <Character=NAVI><Off>
+      - "\u306B\u3044\u3068"
+      - 
       - 
       - 
       - 
@@ -3300,14 +3384,14 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 11
-      debugIndex: 11
+    - rowIndex: 12
+      debugIndex: 12
       strings: []
       isEmpty: 1
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 12
-      debugIndex: 12
+    - rowIndex: 13
+      debugIndex: 13
       strings:
       - Selection
       - '*Story01_q4'
@@ -3321,8 +3405,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 13
-      debugIndex: 13
+    - rowIndex: 14
+      debugIndex: 14
       strings:
       - Selection
       - '*Story01_q5'
@@ -3336,12 +3420,6 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 14
-      debugIndex: 14
-      strings: []
-      isEmpty: 1
-      isCommentOut: 0
-      debugInfo: 
     - rowIndex: 15
       debugIndex: 15
       strings: []
@@ -3350,6 +3428,12 @@ MonoBehaviour:
       debugInfo: 
     - rowIndex: 16
       debugIndex: 16
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 17
+      debugIndex: 17
       strings:
       - '*Story01_q4'
       - 
@@ -3361,18 +3445,18 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 17
-      debugIndex: 17
+    - rowIndex: 18
+      debugIndex: 18
       strings: []
       isEmpty: 1
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 18
-      debugIndex: 18
+    - rowIndex: 19
+      debugIndex: 19
       strings:
       - 
-      - "\uFF1F\uFF1F\uFF1F"
-      - <Character=NAVI><Off>
+      - "\u306B\u3044\u3068"
+      - Idle
       - 
       - 
       - 
@@ -3382,22 +3466,22 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 19
-      debugIndex: 19
+    - rowIndex: 20
+      debugIndex: 20
       strings: []
       isEmpty: 1
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 20
-      debugIndex: 20
+    - rowIndex: 21
+      debugIndex: 21
       strings:
       - Jump
       - '*Story01_q6'
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 21
-      debugIndex: 21
+    - rowIndex: 22
+      debugIndex: 22
       strings:
       - '*Story01_q5'
       - 
@@ -3409,18 +3493,18 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 22
-      debugIndex: 22
+    - rowIndex: 23
+      debugIndex: 23
       strings: []
       isEmpty: 1
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 23
-      debugIndex: 23
+    - rowIndex: 24
+      debugIndex: 24
       strings:
       - 
-      - "\uFF1F\uFF1F\uFF1F"
-      - <Character=NAVI><Off>
+      - "\u306B\u3044\u3068"
+      - Idle
       - 
       - 
       - 
@@ -3430,22 +3514,22 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 24
-      debugIndex: 24
+    - rowIndex: 25
+      debugIndex: 25
       strings: []
       isEmpty: 1
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 25
-      debugIndex: 25
+    - rowIndex: 26
+      debugIndex: 26
       strings:
       - Jump
       - '*Story01_q6'
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 26
-      debugIndex: 26
+    - rowIndex: 27
+      debugIndex: 27
       strings:
       - '*Story01_q6'
       - 
@@ -3457,8 +3541,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 27
-      debugIndex: 27
+    - rowIndex: 28
+      debugIndex: 28
       strings:
       - Wait
       - 
@@ -3470,8 +3554,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 28
-      debugIndex: 28
+    - rowIndex: 29
+      debugIndex: 29
       strings:
       - StopBgm
       - 
@@ -3483,8 +3567,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 29
-      debugIndex: 29
+    - rowIndex: 30
+      debugIndex: 30
       strings:
       - FadeOut
       - black
@@ -3496,24 +3580,11 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 30
-      debugIndex: 30
-      strings:
-      - CharacterOff
-      - NAVI
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
     - rowIndex: 31
       debugIndex: 31
       strings:
-      - BgOff
-      - 
+      - CharacterOff
+      - "\u306B\u3044\u3068"
       - 
       - 
       - 
@@ -3525,6 +3596,29 @@ MonoBehaviour:
     - rowIndex: 32
       debugIndex: 32
       strings:
+      - SpriteOff
+      - "\u30D5\u30EC\u30FC\u30E0"
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 33
+      debugIndex: 33
+      strings:
+      - BgOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 34
+      debugIndex: 34
+      strings:
       - Wait
       - 
       - 
@@ -3535,8 +3629,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 33
-      debugIndex: 33
+    - rowIndex: 35
+      debugIndex: 35
       strings:
       - 
       - 
@@ -3553,8 +3647,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 34
-      debugIndex: 34
+    - rowIndex: 36
+      debugIndex: 36
       strings:
       - Wait
       - 
@@ -3566,8 +3660,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 35
-      debugIndex: 35
+    - rowIndex: 37
+      debugIndex: 37
       strings:
       - HideMessageWindow
       - 
@@ -3576,8 +3670,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 36
-      debugIndex: 36
+    - rowIndex: 38
+      debugIndex: 38
       strings:
       - 
       - 
@@ -3589,8 +3683,8 @@ MonoBehaviour:
       isEmpty: 1
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 37
-      debugIndex: 37
+    - rowIndex: 39
+      debugIndex: 39
       strings:
       - Jump
       - '*Batch_01'
@@ -3602,14 +3696,14 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 38
-      debugIndex: 38
+    - rowIndex: 40
+      debugIndex: 40
       strings: []
       isEmpty: 1
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 39
-      debugIndex: 39
+    - rowIndex: 41
+      debugIndex: 41
       strings:
       - '*Story01_q7'
       - 
@@ -3621,8 +3715,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 40
-      debugIndex: 40
+    - rowIndex: 42
+      debugIndex: 42
       strings:
       - Bg
       - "\u30B9\u30C8\u30FC\u30EA\u30FC\u80CC\u666F02"
@@ -3631,8 +3725,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 41
-      debugIndex: 41
+    - rowIndex: 43
+      debugIndex: 43
       strings:
       - FadeIn
       - black
@@ -3644,8 +3738,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 42
-      debugIndex: 42
+    - rowIndex: 44
+      debugIndex: 44
       strings:
       - Bgm
       - "NAVI\u306EBGM"
@@ -3657,8 +3751,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 43
-      debugIndex: 43
+    - rowIndex: 45
+      debugIndex: 45
       strings:
       - 
       - 
@@ -3667,39 +3761,13 @@ MonoBehaviour:
       isEmpty: 1
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 44
-      debugIndex: 44
-      strings:
-      - 
-      - NAVI
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 45
-      debugIndex: 45
-      strings:
-      - Wait
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 1
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
     - rowIndex: 46
       debugIndex: 46
       strings:
-      - Tween
+      - 
       - NAVI
-      - MoveTo
-      - y=120 time=1
       - 
       - 
-      - PageWait
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -3712,12 +3780,38 @@ MonoBehaviour:
       - 
       - 
       - 
-      - .5
+      - 1
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 48
       debugIndex: 48
+      strings:
+      - Tween
+      - NAVI
+      - MoveTo
+      - y=120 time=1
+      - 
+      - 
+      - PageWait
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 49
+      debugIndex: 49
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - .5
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 50
+      debugIndex: 50
       strings:
       - 
       - 
@@ -3726,8 +3820,8 @@ MonoBehaviour:
       isEmpty: 1
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 49
-      debugIndex: 49
+    - rowIndex: 51
+      debugIndex: 51
       strings:
       - 
       - NAVI
@@ -3744,8 +3838,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 50
-      debugIndex: 50
+    - rowIndex: 52
+      debugIndex: 52
       strings:
       - 
       - NAVI
@@ -3759,8 +3853,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 51
-      debugIndex: 51
+    - rowIndex: 53
+      debugIndex: 53
       strings:
       - Wait
       - 
@@ -3772,8 +3866,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 52
-      debugIndex: 52
+    - rowIndex: 54
+      debugIndex: 54
       strings:
       - Selection
       - '*Story01_q8'
@@ -3787,8 +3881,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 53
-      debugIndex: 53
+    - rowIndex: 55
+      debugIndex: 55
       strings:
       - Selection
       - '*Story01_q8'
@@ -3802,14 +3896,14 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 54
-      debugIndex: 54
+    - rowIndex: 56
+      debugIndex: 56
       strings: []
       isEmpty: 1
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 55
-      debugIndex: 55
+    - rowIndex: 57
+      debugIndex: 57
       strings:
       - '*Story01_q8'
       - 
@@ -3821,14 +3915,14 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 56
-      debugIndex: 56
+    - rowIndex: 58
+      debugIndex: 58
       strings: []
       isEmpty: 1
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 57
-      debugIndex: 57
+    - rowIndex: 59
+      debugIndex: 59
       strings:
       - 
       - NAVI
@@ -3842,8 +3936,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 58
-      debugIndex: 58
+    - rowIndex: 60
+      debugIndex: 60
       strings:
       - 
       - NAVI
@@ -3857,14 +3951,14 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 59
-      debugIndex: 59
+    - rowIndex: 61
+      debugIndex: 61
       strings: []
       isEmpty: 1
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 60
-      debugIndex: 60
+    - rowIndex: 62
+      debugIndex: 62
       strings:
       - 
       - NAVI
@@ -3878,14 +3972,14 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 61
-      debugIndex: 61
+    - rowIndex: 63
+      debugIndex: 63
       strings: []
       isEmpty: 1
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 62
-      debugIndex: 62
+    - rowIndex: 64
+      debugIndex: 64
       strings:
       - Wait
       - 
@@ -3897,8 +3991,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 63
-      debugIndex: 63
+    - rowIndex: 65
+      debugIndex: 65
       strings:
       - Selection
       - '*End'
@@ -3914,7 +4008,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Story_01
     type: 1
-    textLength: 1112
+    textLength: 1022
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
   - rows:

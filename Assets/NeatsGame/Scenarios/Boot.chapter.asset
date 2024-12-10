@@ -68,9 +68,27 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - "\u306B\u3044\u3068"
+      - 
+      - 
+      - 0
+      - -20
+      - 
+      - 
+      - 2.5
+      - 
+      - neat_model.prefab
+      - 
+      - Custom
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Character
     type: 1
-    textLength: 206
+    textLength: 239
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
   - rows:
@@ -234,9 +252,51 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 12
+      debugIndex: 12
+      strings:
+      - "\u30D5\u30EC\u30FC\u30E0"
+      - Sprite
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - frame.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 13
+      debugIndex: 13
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 14
+      strings:
+      - "\u30D0\u30C3\u30C1_01"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - BatchEvent01.jpg
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Batch01.jpg
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Texture
     type: 1
-    textLength: 281
+    textLength: 338
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
   - rows:
