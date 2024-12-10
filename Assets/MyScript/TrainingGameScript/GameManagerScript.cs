@@ -6,11 +6,15 @@ using TMPro;
 
 public class GameManagerScript : MonoBehaviour
 {
-    public static int money;
-    public static int hp;
-    public static int heart;
-    public static int day;
+    public static int money = 1000;
+    public static int hp = 100;
+    public static int heart = 500;
+    public static int day = 1;
     public static int clean = 200;
+
+    public Slider moneyslider;
+    public Slider heartslider;
+    public Slider hpslider;
 
 
     public TextMeshProUGUI Moneytext;
@@ -55,6 +59,16 @@ public class GameManagerScript : MonoBehaviour
             BG03.SetActive (false);
         }
 
+        /*初期設定
+        money = 1000;
+        heart = 100;
+        hp = 500;
+        day = 1;*/
+
+        /*スライダー設定*/
+        moneyslider.value = money;
+        heartslider.value = heart;
+        hpslider.value = hp;
         
     }
 
@@ -83,6 +97,9 @@ public class GameManagerScript : MonoBehaviour
     /*掃除ボタンを押すと*/
     public void CleanCount(){
         clean += 100;
+        heart -= 100;
+        hp -= 100;
+
 
         countlimit　-= 1;
     }
@@ -98,6 +115,11 @@ public class GameManagerScript : MonoBehaviour
         Hearttext.text = heart.ToString();
         Daytext.text = day.ToString();
         Cleantext.text = clean.ToString();
+
+        /*スライダー設定*/
+        moneyslider.value = money;
+        heartslider.value = heart;
+        hpslider.value = hp;
 
         /*回数制限*/
         Countlimittext.text = countlimit.ToString();
@@ -144,13 +166,22 @@ public class GameManagerScript : MonoBehaviour
         if(money < 0){
             money = 0;
         }
+        else if(money > 1000){
+            money = 1000;
+        }
 
         if(hp < 0){
             hp = 0;
         }
+        else if(hp > 1000){
+            hp = 1000;
+        }
 
         if(heart < 0){
             heart = 0;
+        }
+        else if(heart > 1000){
+            heart = 1000;
         }
 
         if(day < 0){
