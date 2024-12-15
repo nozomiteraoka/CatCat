@@ -7,10 +7,10 @@ using TMPro;
 public class GameManagerScript : MonoBehaviour
 {
     public static int money = 1000;
-    public static int hp = 100;
+    public static int hp = 200;
     public static int heart = 500;
     public static int day = 1;
-    public static int clean = -200;
+    public static int clean = -100;
 
     public Slider moneyslider;
     public Slider heartslider;
@@ -40,12 +40,16 @@ public class GameManagerScript : MonoBehaviour
 
 
     /*Popup*/
-    public GameObject PupUpAll;
-    public GameObject MoneyPupup;
+    public GameObject PopUpAll;
+    public GameObject MoneyPopup;
     public GameObject MentalPopup;
     public GameObject HpPopup;
     public GameObject CleanPopup;
     public GameObject ClearPopup;
+
+
+    /*オーディオ*/
+    public AudioSource audioSource;
 
 
     // Start is called before the first frame update
@@ -81,8 +85,8 @@ public class GameManagerScript : MonoBehaviour
 
 
         /*ポップアップ*/
-        PupUpAll.SetActive (false);
-        MoneyPupup.SetActive (false);
+        PopUpAll.SetActive (false);
+        MoneyPopup.SetActive (false);
         MentalPopup.SetActive (false);
         HpPopup.SetActive (false);
         CleanPopup.SetActive (false);
@@ -98,6 +102,8 @@ public class GameManagerScript : MonoBehaviour
         hp += 100;
 
         countlimit　-= 1;
+
+        audioSource.Play();
     }
 
     /*寝るボタンを押すと*/
@@ -110,6 +116,8 @@ public class GameManagerScript : MonoBehaviour
         if(countlimit < 3){
             countlimit　= 3;
         }
+
+        audioSource.Play();
     }
 
     /*掃除ボタンを押すと*/
@@ -118,8 +126,9 @@ public class GameManagerScript : MonoBehaviour
         heart -= 100;
         hp -= 100;
 
-
         countlimit　-= 1;
+
+        audioSource.Play();
     }
 
 
@@ -207,18 +216,39 @@ public class GameManagerScript : MonoBehaviour
         }
 
         /*掃除ストッパ*/
-        if(clean < -100){
-            clean = -100;
+        if(clean < -200){
+            clean = -200;
         }else if(clean > 300){
-            clean = 200;
+            clean = 300;
         }
 
 
         /*ポップアップ*/
-        if(money < 100){
+        if(money == 100){
 
-            PupUpAll.SetActive (true);
-            MoneyPupup.SetActive (true);
+            PopUpAll.SetActive (true);
+            MoneyPopup.SetActive (true);
+
+        }
+/*
+        if(hp == 100){
+
+            PopUpAll.SetActive (true);
+            HpPopup.SetActive (true);
+
+        }*/
+
+        if(heart == 100){
+
+            PopUpAll.SetActive (true);
+            MentalPopup.SetActive (true);
+
+        }
+
+        if(clean == -200){
+
+            PopUpAll.SetActive (true);
+            CleanPopup.SetActive (true);
 
         }
 

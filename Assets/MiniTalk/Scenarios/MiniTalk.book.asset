@@ -36,7 +36,7 @@ MonoBehaviour:
     - rowIndex: 1
       debugIndex: 3
       strings:
-      - '*moneytalk_01'
+      - '*moneytalk_down'
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -44,29 +44,33 @@ MonoBehaviour:
       debugIndex: 4
       strings:
       - 
+      - "\u306B\u3044\u3068"
       - 
       - 
       - 
       - 
       - 
       - 
+      - "\u5C06\u6765\u306E\u304A\u91D1\u304C\u5FC3\u914D"
+      - Next
       - 
-      - "\u305D\u308D\u305D\u308D\u751F\u6D3B\u8CC7\u91D1\u304C\u2025"
+      - MiniWindow
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 3
       debugIndex: 5
       strings:
+      - Wait
       - 
       - 
       - 
       - 
       - 
+      - 1
       - 
       - 
       - 
-      - "\u3068\u304B\u304A\u3082\u3046"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -80,7 +84,7 @@ MonoBehaviour:
     - rowIndex: 5
       debugIndex: 7
       strings:
-      - '*moneytalk_02'
+      - '*hptalk_down'
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -88,29 +92,33 @@ MonoBehaviour:
       debugIndex: 8
       strings:
       - 
+      - "\u306B\u3044\u3068"
       - 
       - 
       - 
       - 
       - 
       - 
+      - "\u7720\u305F\u3044\u306A\u3042"
+      - Next
       - 
-      - "\u30D0\u30A4\u30C8\u3068\u304B\u3057\u3066\u307F\u305F\u3044\u306A\uFF01"
+      - MiniWindow
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 7
       debugIndex: 9
       strings:
+      - Wait
       - 
       - 
       - 
       - 
       - 
+      - 1
       - 
       - 
       - 
-      - "\u3068\u304B\u304A\u3082\u3046"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -122,7 +130,336 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 9
+      debugIndex: 11
+      strings:
+      - '*mentaltalk_down'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 10
+      debugIndex: 12
+      strings:
+      - 
+      - "\u306B\u3044\u3068"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3061\u3087\u3063\u3068\u5143\u6C17\u3067\u306A\u304F\u3066"
+      - Next
+      - 
+      - MiniWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 11
+      debugIndex: 13
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 12
       debugIndex: 14
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 13
+      debugIndex: 15
+      strings:
+      - '*cleantalk_down'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 16
+      strings:
+      - 
+      - "\u306B\u3044\u3068"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u90E8\u5C4B\u6C5A\u3044\u3088\u306D"
+      - Next
+      - 
+      - MiniWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 15
+      debugIndex: 17
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 16
+      debugIndex: 18
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 17
+      debugIndex: 20
+      strings:
+      - '*anotherTalk'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 18
+      debugIndex: 21
+      strings:
+      - 
+      - "\u306B\u3044\u3068"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3075\u30FC\u3093\u3075\u3075\u3093\u3075\u3093\u266A"
+      - Next
+      - 
+      - MiniWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 19
+      debugIndex: 22
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 20
+      debugIndex: 23
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 21
+      debugIndex: 24
+      strings:
+      - '*moneytalk_up'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 22
+      debugIndex: 25
+      strings:
+      - 
+      - "\u306B\u3044\u3068"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u304A\u91D1\u306E\u5FC3\u914D\u306F\u3057\u3066\u3044\u306A\u3044"
+      - Next
+      - 
+      - MiniWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 23
+      debugIndex: 26
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 24
+      debugIndex: 27
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 25
+      debugIndex: 28
+      strings:
+      - '*hptalk_up'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 26
+      debugIndex: 29
+      strings:
+      - 
+      - "\u306B\u3044\u3068"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u4F53\u8ABF\u304C\u3044\u3044\u3093\u3060"
+      - Next
+      - 
+      - MiniWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 27
+      debugIndex: 30
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 28
+      debugIndex: 31
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 29
+      debugIndex: 32
+      strings:
+      - '*mentaltalk_up'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 30
+      debugIndex: 33
+      strings:
+      - 
+      - "\u306B\u3044\u3068"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u5143\u6C17\u3044\u3063\u3071\u3044\u3060\u3088"
+      - Next
+      - 
+      - MiniWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 34
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 32
+      debugIndex: 35
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 33
+      debugIndex: 36
+      strings:
+      - '*cleantalk_up'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 34
+      debugIndex: 37
+      strings:
+      - 
+      - "\u306B\u3044\u3068"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u90E8\u5C4B\u30AD\u30EC\u30A4\uFF01"
+      - Next
+      - 
+      - MiniWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 35
+      debugIndex: 38
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 36
+      debugIndex: 39
       strings:
       - EndScenario
       isEmpty: 0
@@ -130,7 +467,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/MiniTalk/Scenarios/MiniTalk.xls:MiniTalk
     type: 1
-    textLength: 157
+    textLength: 553
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 9bfcd6528745b77458274ecfaab0d6ac, type: 3}
     entityIndexTbl: 
@@ -166,6 +503,9 @@ MonoBehaviour:
       - 
       - 
       - Template Scenario Start
+      - 
+      - 
+      - MessageWindow
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -195,14 +535,17 @@ MonoBehaviour:
       debugIndex: 5
       strings:
       - 
-      - 
-      - 
+      - NAVI
+      - <Character=NAVI><Off>
       - 
       - 
       - 
       - 
       - 
       - "\u3053\u3061\u3089\u304C\u306B\u3044\u3068\u3061\u3083\u3093\u306E\u304A\u90E8\u5C4B\u3067\u3059\u306D"
+      - 
+      - 
+      - TutorialWindow
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -210,8 +553,8 @@ MonoBehaviour:
       debugIndex: 6
       strings:
       - 
-      - 
-      - 
+      - NAVI
+      - <Character=NAVI><Off>
       - 
       - 
       - 
@@ -225,8 +568,8 @@ MonoBehaviour:
       debugIndex: 8
       strings:
       - 
-      - 
-      - 
+      - NAVI
+      - <Character=NAVI><Off>
       - 
       - 
       - 
@@ -240,8 +583,8 @@ MonoBehaviour:
       debugIndex: 9
       strings:
       - 
-      - 
-      - 
+      - NAVI
+      - <Character=NAVI><Off>
       - 
       - 
       - 
@@ -255,8 +598,8 @@ MonoBehaviour:
       debugIndex: 10
       strings:
       - 
-      - 
-      - 
+      - NAVI
+      - <Character=NAVI><Off>
       - 
       - 
       - 
@@ -275,7 +618,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/MiniTalk/Scenarios/MiniTalk.xls:Start
     type: 1
-    textLength: 246
+    textLength: 398
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 9bfcd6528745b77458274ecfaab0d6ac, type: 3}
     entityIndexTbl: 
@@ -309,9 +652,33 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - NAVI
+      - NAVI
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - mininavi.png
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - mininavi.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/MiniTalk/Scenarios/MiniTalk.xls:Character
     type: 1
-    textLength: 166
+    textLength: 198
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 9bfcd6528745b77458274ecfaab0d6ac, type: 3}
   - rows:
@@ -693,7 +1060,7 @@ MonoBehaviour:
     - rowIndex: 3
       debugIndex: 3
       strings:
-      - '*moneytalk_01'
+      - '*moneytalk_down'
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -701,29 +1068,33 @@ MonoBehaviour:
       debugIndex: 4
       strings:
       - 
+      - "\u306B\u3044\u3068"
       - 
       - 
       - 
       - 
       - 
       - 
+      - "\u5C06\u6765\u306E\u304A\u91D1\u304C\u5FC3\u914D"
+      - Next
       - 
-      - "\u305D\u308D\u305D\u308D\u751F\u6D3B\u8CC7\u91D1\u304C\u2025"
+      - MiniWindow
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 5
       debugIndex: 5
       strings:
+      - Wait
       - 
       - 
       - 
       - 
       - 
+      - 1
       - 
       - 
       - 
-      - "\u3068\u304B\u304A\u3082\u3046"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -737,7 +1108,7 @@ MonoBehaviour:
     - rowIndex: 7
       debugIndex: 7
       strings:
-      - '*moneytalk_02'
+      - '*hptalk_down'
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -745,29 +1116,33 @@ MonoBehaviour:
       debugIndex: 8
       strings:
       - 
+      - "\u306B\u3044\u3068"
       - 
       - 
       - 
       - 
       - 
       - 
+      - "\u7720\u305F\u3044\u306A\u3042"
+      - Next
       - 
-      - "\u30D0\u30A4\u30C8\u3068\u304B\u3057\u3066\u307F\u305F\u3044\u306A\uFF01"
+      - MiniWindow
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 9
       debugIndex: 9
       strings:
+      - Wait
       - 
       - 
       - 
       - 
       - 
+      - 1
       - 
       - 
       - 
-      - "\u3068\u304B\u304A\u3082\u3046"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -780,20 +1155,43 @@ MonoBehaviour:
       debugInfo: 
     - rowIndex: 11
       debugIndex: 11
-      strings: []
-      isEmpty: 1
+      strings:
+      - '*mentaltalk_down'
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 12
       debugIndex: 12
-      strings: []
-      isEmpty: 1
+      strings:
+      - 
+      - "\u306B\u3044\u3068"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3061\u3087\u3063\u3068\u5143\u6C17\u3067\u306A\u304F\u3066"
+      - Next
+      - 
+      - MiniWindow
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 13
       debugIndex: 13
-      strings: []
-      isEmpty: 1
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - 
+      - 
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 14
@@ -803,9 +1201,303 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 15
+      debugIndex: 15
+      strings:
+      - '*cleantalk_down'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 16
+      debugIndex: 16
+      strings:
+      - 
+      - "\u306B\u3044\u3068"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u90E8\u5C4B\u6C5A\u3044\u3088\u306D"
+      - Next
+      - 
+      - MiniWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 17
+      debugIndex: 17
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 18
+      debugIndex: 18
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 19
+      debugIndex: 19
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 20
+      debugIndex: 20
+      strings:
+      - '*anotherTalk'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 21
+      debugIndex: 21
+      strings:
+      - 
+      - "\u306B\u3044\u3068"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3075\u30FC\u3093\u3075\u3075\u3093\u3075\u3093\u266A"
+      - Next
+      - 
+      - MiniWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 22
+      debugIndex: 22
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 23
+      debugIndex: 23
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 24
+      debugIndex: 24
+      strings:
+      - '*moneytalk_up'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 25
+      debugIndex: 25
+      strings:
+      - 
+      - "\u306B\u3044\u3068"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u304A\u91D1\u306E\u5FC3\u914D\u306F\u3057\u3066\u3044\u306A\u3044"
+      - Next
+      - 
+      - MiniWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 26
+      debugIndex: 26
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 27
+      debugIndex: 27
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 28
+      debugIndex: 28
+      strings:
+      - '*hptalk_up'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 29
+      debugIndex: 29
+      strings:
+      - 
+      - "\u306B\u3044\u3068"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u4F53\u8ABF\u304C\u3044\u3044\u3093\u3060"
+      - Next
+      - 
+      - MiniWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 30
+      debugIndex: 30
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 31
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 32
+      debugIndex: 32
+      strings:
+      - '*mentaltalk_up'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 33
+      debugIndex: 33
+      strings:
+      - 
+      - "\u306B\u3044\u3068"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u5143\u6C17\u3044\u3063\u3071\u3044\u3060\u3088"
+      - Next
+      - 
+      - MiniWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 34
+      debugIndex: 34
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 35
+      debugIndex: 35
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 36
+      debugIndex: 36
+      strings:
+      - '*cleantalk_up'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 37
+      debugIndex: 37
+      strings:
+      - 
+      - "\u306B\u3044\u3068"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u90E8\u5C4B\u30AD\u30EC\u30A4\uFF01"
+      - Next
+      - 
+      - MiniWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 38
+      debugIndex: 38
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 39
+      debugIndex: 39
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/MiniTalk/Scenarios/MiniTalk.xls:MiniTalk
     type: 1
-    textLength: 157
+    textLength: 553
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 9bfcd6528745b77458274ecfaab0d6ac, type: 3}
   - rows:
@@ -839,6 +1531,9 @@ MonoBehaviour:
       - 
       - 
       - Template Scenario Start
+      - 
+      - 
+      - MessageWindow
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -874,14 +1569,17 @@ MonoBehaviour:
       debugIndex: 5
       strings:
       - 
-      - 
-      - 
+      - NAVI
+      - <Character=NAVI><Off>
       - 
       - 
       - 
       - 
       - 
       - "\u3053\u3061\u3089\u304C\u306B\u3044\u3068\u3061\u3083\u3093\u306E\u304A\u90E8\u5C4B\u3067\u3059\u306D"
+      - 
+      - 
+      - TutorialWindow
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -889,8 +1587,8 @@ MonoBehaviour:
       debugIndex: 6
       strings:
       - 
-      - 
-      - 
+      - NAVI
+      - <Character=NAVI><Off>
       - 
       - 
       - 
@@ -910,8 +1608,8 @@ MonoBehaviour:
       debugIndex: 8
       strings:
       - 
-      - 
-      - 
+      - NAVI
+      - <Character=NAVI><Off>
       - 
       - 
       - 
@@ -925,8 +1623,8 @@ MonoBehaviour:
       debugIndex: 9
       strings:
       - 
-      - 
-      - 
+      - NAVI
+      - <Character=NAVI><Off>
       - 
       - 
       - 
@@ -940,8 +1638,8 @@ MonoBehaviour:
       debugIndex: 10
       strings:
       - 
-      - 
-      - 
+      - NAVI
+      - <Character=NAVI><Off>
       - 
       - 
       - 
@@ -978,6 +1676,6 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/MiniTalk/Scenarios/MiniTalk.xls:Start
     type: 1
-    textLength: 246
+    textLength: 398
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 9bfcd6528745b77458274ecfaab0d6ac, type: 3}

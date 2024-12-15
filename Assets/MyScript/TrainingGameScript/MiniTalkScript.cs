@@ -14,34 +14,78 @@ using UtageExtensions;
 
         public string ScenarioLabel_01;
 
-        public string MiniTalk_Money01;
-        public string MiniTalk_Money02;
+        public string Moneytalk_down;
+        public string Hptalk_down;
+        public string Mentaltalk_down;
+        public string Cleantalk_down;
 
-        //public string MiniTalk_Hp01;
-        //public string MiniTalk_Hp02;
+        public string Moneytalk_up;
+        public string Hptalk_up;
+        public string Mentaltalk_up;
+        public string Cleantalk_up;
 
-        //public string MiniTalk_Heat01;
-        //public string MiniTalk_Heat02;
+        public string AnotherTalk;
 
-        //public string MiniTalk_Clean01;
-        //public string MiniTalk_Clean02;
 
-        //public string MiniTalk_Another01;
-        //public string MiniTalk_Another02;
 
 
         public void JumpADV(){
 
-            if(GameManagerScript.money < 400){
 
-                JumpScenario(MiniTalk_Money01);
 
-            }
-            else if(GameManagerScript.money > 400){
+            if(GameManagerScript.money < 300){
 
-                JumpScenario(MiniTalk_Money02);
+                JumpScenario(Moneytalk_down);
 
             }
+
+            else if(GameManagerScript.hp < 300){
+
+                JumpScenario(Hptalk_down);
+
+            }
+
+            else if(GameManagerScript.heart < 300){
+
+                JumpScenario(Mentaltalk_down);
+
+            }
+
+            else if(GameManagerScript.clean < 0){
+
+                JumpScenario(Cleantalk_down);
+
+            }
+
+            //
+
+            else if(GameManagerScript.money > 800){
+
+                JumpScenario(Moneytalk_up);
+            }
+
+            else if(GameManagerScript.hp > 800){
+
+                JumpScenario(Hptalk_up);
+            }
+
+            else if(GameManagerScript.heart > 800){
+
+                JumpScenario(Mentaltalk_up);
+            }
+
+            else if(GameManagerScript.clean > 100){
+
+                JumpScenario(Cleantalk_up);
+            }
+
+            else {
+
+                JumpScenario(AnotherTalk);
+            }
+
+            //JumpScenario(AnotherTalk);
+
 
         }
 

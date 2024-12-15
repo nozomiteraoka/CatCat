@@ -44,9 +44,33 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - NAVI
+      - NAVI
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - mininavi.png
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - mininavi.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/MiniTalk/Scenarios/MiniTalk.xls:Character
     type: 1
-    textLength: 166
+    textLength: 198
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 9bfcd6528745b77458274ecfaab0d6ac, type: 3}
   - rows:
