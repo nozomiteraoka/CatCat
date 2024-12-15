@@ -10,7 +10,7 @@ public class GameManagerScript : MonoBehaviour
     public static int hp = 100;
     public static int heart = 500;
     public static int day = 1;
-    public static int clean = 200;
+    public static int clean = -200;
 
     public Slider moneyslider;
     public Slider heartslider;
@@ -37,6 +37,15 @@ public class GameManagerScript : MonoBehaviour
     public GameObject EatBtn;
     public GameObject WorkBtn;
     public GameObject CleanBtn;
+
+
+    /*Popup*/
+    public GameObject PupUpAll;
+    public GameObject MoneyPupup;
+    public GameObject MentalPopup;
+    public GameObject HpPopup;
+    public GameObject CleanPopup;
+    public GameObject ClearPopup;
 
 
     // Start is called before the first frame update
@@ -69,6 +78,15 @@ public class GameManagerScript : MonoBehaviour
         moneyslider.value = money;
         heartslider.value = heart;
         hpslider.value = hp;
+
+
+        /*ポップアップ*/
+        PupUpAll.SetActive (false);
+        MoneyPupup.SetActive (false);
+        MentalPopup.SetActive (false);
+        HpPopup.SetActive (false);
+        CleanPopup.SetActive (false);
+        ClearPopup.SetActive (false);
         
     }
 
@@ -195,6 +213,16 @@ public class GameManagerScript : MonoBehaviour
             clean = 200;
         }
 
+
+        /*ポップアップ*/
+        if(money < 100){
+
+            PupUpAll.SetActive (true);
+            MoneyPupup.SetActive (true);
+
+        }
+
+
         
-    }
+    }/*Update-End*/
 }
