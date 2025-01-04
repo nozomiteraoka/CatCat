@@ -93,7 +93,7 @@ MonoBehaviour:
       strings:
       - 
       - "\u306B\u3044\u3068"
-      - 
+      - "<Character=\u306B\u3044\u3068><Off>"
       - 
       - 
       - 
@@ -141,7 +141,7 @@ MonoBehaviour:
       strings:
       - 
       - "\u306B\u3044\u3068"
-      - 
+      - "<Character=\u306B\u3044\u3068><Off>"
       - 
       - 
       - 
@@ -189,7 +189,7 @@ MonoBehaviour:
       strings:
       - 
       - "\u306B\u3044\u3068"
-      - 
+      - "<Character=\u306B\u3044\u3068><Off>"
       - 
       - 
       - 
@@ -237,7 +237,7 @@ MonoBehaviour:
       strings:
       - 
       - "\u306B\u3044\u3068"
-      - 
+      - "<Character=\u306B\u3044\u3068><Off>"
       - 
       - 
       - 
@@ -285,7 +285,7 @@ MonoBehaviour:
       strings:
       - 
       - "\u306B\u3044\u3068"
-      - 
+      - "<Character=\u306B\u3044\u3068><Off>"
       - 
       - 
       - 
@@ -333,7 +333,7 @@ MonoBehaviour:
       strings:
       - 
       - "\u306B\u3044\u3068"
-      - 
+      - "<Character=\u306B\u3044\u3068><Off>"
       - 
       - 
       - 
@@ -381,7 +381,7 @@ MonoBehaviour:
       strings:
       - 
       - "\u306B\u3044\u3068"
-      - 
+      - "<Character=\u306B\u3044\u3068><Off>"
       - 
       - 
       - 
@@ -429,7 +429,7 @@ MonoBehaviour:
       strings:
       - 
       - "\u306B\u3044\u3068"
-      - 
+      - "<Character=\u306B\u3044\u3068><Off>"
       - 
       - 
       - 
@@ -467,7 +467,669 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/MiniTalk/Scenarios/MiniTalk.xls:MiniTalk
     type: 1
-    textLength: 553
+    textLength: 713
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: 9bfcd6528745b77458274ecfaab0d6ac, type: 3}
+    entityIndexTbl: 
+    entityDataList: []
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Command
+      - Arg1
+      - Arg2
+      - Arg3
+      - Arg4
+      - Arg5
+      - Arg6
+      - WaitType
+      - Text
+      - PageCtrl
+      - Voice
+      - WindowType
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Template Scenario Start
+      - 
+      - 
+      - MessageWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Template Scenario End
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - '*morning_talk'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
+      - SendMessageByName
+      - Clock
+      - TodayTalkFlug
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 5
+      debugIndex: 5
+      strings:
+      - 
+      - "\u306B\u3044\u3068"
+      - "<Character=\u306B\u3044\u3068><Off>"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u671D\u306F1\u56DE\u3057\u304B\u884C\u52D5\u3057\u305F\u304F\u306A\u3044\u3088"
+      - Next
+      - 
+      - MiniWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 6
+      debugIndex: 6
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 7
+      strings:
+      - CharacterOff
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 8
+      debugIndex: 8
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 9
+      debugIndex: 9
+      strings:
+      - '*noon_talk'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 10
+      debugIndex: 10
+      strings:
+      - SendMessageByName
+      - Clock
+      - TodayTalkFlug2
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 11
+      debugIndex: 11
+      strings:
+      - 
+      - "\u306B\u3044\u3068"
+      - "<Character=\u306B\u3044\u3068><Off>"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u663C\u306F1\u56DE\u3057\u304B\u884C\u52D5\u3057\u305F\u304F\u306A\u3044\u3088"
+      - Next
+      - 
+      - MiniWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 12
+      debugIndex: 12
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 13
+      debugIndex: 13
+      strings:
+      - CharacterOff
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 14
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 15
+      debugIndex: 15
+      strings:
+      - '*night_talk'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 16
+      debugIndex: 16
+      strings:
+      - SendMessageByName
+      - Clock
+      - TodayTalkFlug
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 17
+      debugIndex: 17
+      strings:
+      - 
+      - "\u306B\u3044\u3068"
+      - "<Character=\u306B\u3044\u3068><Off>"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u591C\u306F\u5BDD\u308B\u3060\u3051\u3060\u3088"
+      - Next
+      - 
+      - MiniWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 18
+      debugIndex: 18
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 19
+      debugIndex: 19
+      strings:
+      - CharacterOff
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 20
+      debugIndex: 20
+      strings:
+      - HideMessageWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 21
+      debugIndex: 21
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 22
+      debugIndex: 25
+      strings:
+      - '*second_talk'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 23
+      debugIndex: 26
+      strings:
+      - SendMessageByName
+      - Clock
+      - TodayTalkFlug
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 24
+      debugIndex: 27
+      strings:
+      - FadeOut
+      - black
+      - 
+      - 
+      - 
+      - 
+      - .3
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 25
+      debugIndex: 28
+      strings:
+      - 
+      - NAVI
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u672C\u65E5\u306E\u30B5\u30DD\u30FC\u30C8\u306F\u7D42\u4E86\u3044\u305F\u3057\u307E\u3057\u305F\u3002\n\u304A\u75B2\u308C\u69D8\u3067\u3057\u305F\u3002\n\u5B8C\u74A7\u3067\u3059\u306D\uFF01\uFF01\uFF01\uFF01\uFF01"
+      - Next
+      - 
+      - NormalWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 26
+      debugIndex: 29
+      strings:
+      - CharacterOff
+      - NAVI
+      - 
+      - 
+      - 
+      - 
+      - .1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 27
+      debugIndex: 30
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 28
+      debugIndex: 31
+      strings:
+      - SendMessageByName
+      - Clock
+      - timeflug_on
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 29
+      debugIndex: 32
+      strings:
+      - SendMessageByName
+      - GameManager
+      - TodayPlus
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 30
+      debugIndex: 33
+      strings:
+      - HideMessageWindow
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 34
+      strings:
+      - FadeIn
+      - black
+      - 
+      - 
+      - 
+      - 
+      - .5
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 32
+      debugIndex: 35
+      strings:
+      - Jump
+      - '*support_talk'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 33
+      debugIndex: 36
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 34
+      debugIndex: 38
+      strings:
+      - '*support_talk'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 35
+      debugIndex: 39
+      strings:
+      - 
+      - NAVI
+      - <Character=NAVI><Off>
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u304A\u306F\u3088\u3046\u3054\u3056\u3044\u307E\u3059\uFF01\n\u672C\u65E5\u3082\u30B5\u30DD\u30FC\u30C8\u3092\u9811\u5F35\u3063\u3066\u3044\u304D\u307E\u3057\u3087\u3046\uFF01"
+      - Next
+      - 
+      - TutorialWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 36
+      debugIndex: 40
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - .5
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 37
+      debugIndex: 41
+      strings:
+      - CharacterOff
+      - NAVI
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 38
+      debugIndex: 42
+      strings:
+      - SendMessageByName
+      - Clock
+      - timeflug_off
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 39
+      debugIndex: 43
+      strings:
+      - HideMessageWindow
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 40
+      debugIndex: 44
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 41
+      debugIndex: 46
+      strings:
+      - '*last_talk'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 42
+      debugIndex: 47
+      strings:
+      - SendMessageByName
+      - Clock
+      - TodayTalkFlug2
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 43
+      debugIndex: 48
+      strings:
+      - FadeOut
+      - black
+      - 
+      - 
+      - 
+      - 
+      - .3
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 44
+      debugIndex: 49
+      strings:
+      - 
+      - NAVI
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u672C\u65E5\u306E\u30B5\u30DD\u30FC\u30C8\u306F\u7D42\u4E86\u3044\u305F\u3057\u307E\u3057\u305F\u3002\n\u304A\u75B2\u308C\u69D8\u3067\u3057\u305F\u3002\n\u5B8C\u74A7\u3067\u3059\u306Daaa\uFF01\uFF01"
+      - Next
+      - 
+      - NormalWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 45
+      debugIndex: 50
+      strings:
+      - CharacterOff
+      - NAVI
+      - 
+      - 
+      - 
+      - 
+      - .1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 46
+      debugIndex: 51
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 47
+      debugIndex: 52
+      strings:
+      - SendMessageByName
+      - Clock
+      - timeflug_on
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 48
+      debugIndex: 53
+      strings:
+      - SendMessageByName
+      - GameManager
+      - TodayPlus
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 49
+      debugIndex: 54
+      strings:
+      - HideMessageWindow
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 50
+      debugIndex: 55
+      strings:
+      - FadeIn
+      - black
+      - 
+      - 
+      - 
+      - 
+      - .5
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 51
+      debugIndex: 56
+      strings:
+      - Jump
+      - '*support_talk'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 52
+      debugIndex: 57
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/MiniTalk/Scenarios/MiniTalk.xls:Start2
+    type: 1
+    textLength: 1218
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 9bfcd6528745b77458274ecfaab0d6ac, type: 3}
     entityIndexTbl: 
@@ -610,7 +1272,15 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 9
-      debugIndex: 14
+      debugIndex: 13
+      strings:
+      - CharacterOff
+      - NAVI
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 10
+      debugIndex: 15
       strings:
       - EndScenario
       isEmpty: 0
@@ -618,7 +1288,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/MiniTalk/Scenarios/MiniTalk.xls:Start
     type: 1
-    textLength: 398
+    textLength: 414
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 9bfcd6528745b77458274ecfaab0d6ac, type: 3}
     entityIndexTbl: 
@@ -676,9 +1346,33 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - "\u306B\u3044\u3068"
+      - "\u306B\u3044\u3068"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - mininavi.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - "\u4E3B\u4EBA\u516C"
+      - <param=player_name>
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/MiniTalk/Scenarios/MiniTalk.xls:Character
     type: 1
-    textLength: 198
+    textLength: 238
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 9bfcd6528745b77458274ecfaab0d6ac, type: 3}
   - rows:
@@ -942,9 +1636,18 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - player_neat
+      - String
+      - "\u306B\u3044\u3068"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/MiniTalk/Scenarios/MiniTalk.xls:Param
     type: 1
-    textLength: 50
+    textLength: 70
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 9bfcd6528745b77458274ecfaab0d6ac, type: 3}
   - rows:
@@ -1117,7 +1820,7 @@ MonoBehaviour:
       strings:
       - 
       - "\u306B\u3044\u3068"
-      - 
+      - "<Character=\u306B\u3044\u3068><Off>"
       - 
       - 
       - 
@@ -1165,7 +1868,7 @@ MonoBehaviour:
       strings:
       - 
       - "\u306B\u3044\u3068"
-      - 
+      - "<Character=\u306B\u3044\u3068><Off>"
       - 
       - 
       - 
@@ -1213,7 +1916,7 @@ MonoBehaviour:
       strings:
       - 
       - "\u306B\u3044\u3068"
-      - 
+      - "<Character=\u306B\u3044\u3068><Off>"
       - 
       - 
       - 
@@ -1267,7 +1970,7 @@ MonoBehaviour:
       strings:
       - 
       - "\u306B\u3044\u3068"
-      - 
+      - "<Character=\u306B\u3044\u3068><Off>"
       - 
       - 
       - 
@@ -1315,7 +2018,7 @@ MonoBehaviour:
       strings:
       - 
       - "\u306B\u3044\u3068"
-      - 
+      - "<Character=\u306B\u3044\u3068><Off>"
       - 
       - 
       - 
@@ -1363,7 +2066,7 @@ MonoBehaviour:
       strings:
       - 
       - "\u306B\u3044\u3068"
-      - 
+      - "<Character=\u306B\u3044\u3068><Off>"
       - 
       - 
       - 
@@ -1411,7 +2114,7 @@ MonoBehaviour:
       strings:
       - 
       - "\u306B\u3044\u3068"
-      - 
+      - "<Character=\u306B\u3044\u3068><Off>"
       - 
       - 
       - 
@@ -1459,7 +2162,7 @@ MonoBehaviour:
       strings:
       - 
       - "\u306B\u3044\u3068"
-      - 
+      - "<Character=\u306B\u3044\u3068><Off>"
       - 
       - 
       - 
@@ -1497,7 +2200,697 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/MiniTalk/Scenarios/MiniTalk.xls:MiniTalk
     type: 1
-    textLength: 553
+    textLength: 713
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: 9bfcd6528745b77458274ecfaab0d6ac, type: 3}
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Command
+      - Arg1
+      - Arg2
+      - Arg3
+      - Arg4
+      - Arg5
+      - Arg6
+      - WaitType
+      - Text
+      - PageCtrl
+      - Voice
+      - WindowType
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Template Scenario Start
+      - 
+      - 
+      - MessageWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Template Scenario End
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - '*morning_talk'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
+      - SendMessageByName
+      - Clock
+      - TodayTalkFlug
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 5
+      debugIndex: 5
+      strings:
+      - 
+      - "\u306B\u3044\u3068"
+      - "<Character=\u306B\u3044\u3068><Off>"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u671D\u306F1\u56DE\u3057\u304B\u884C\u52D5\u3057\u305F\u304F\u306A\u3044\u3088"
+      - Next
+      - 
+      - MiniWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 6
+      debugIndex: 6
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 7
+      strings:
+      - CharacterOff
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 8
+      debugIndex: 8
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 9
+      debugIndex: 9
+      strings:
+      - '*noon_talk'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 10
+      debugIndex: 10
+      strings:
+      - SendMessageByName
+      - Clock
+      - TodayTalkFlug2
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 11
+      debugIndex: 11
+      strings:
+      - 
+      - "\u306B\u3044\u3068"
+      - "<Character=\u306B\u3044\u3068><Off>"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u663C\u306F1\u56DE\u3057\u304B\u884C\u52D5\u3057\u305F\u304F\u306A\u3044\u3088"
+      - Next
+      - 
+      - MiniWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 12
+      debugIndex: 12
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 13
+      debugIndex: 13
+      strings:
+      - CharacterOff
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 14
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 15
+      debugIndex: 15
+      strings:
+      - '*night_talk'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 16
+      debugIndex: 16
+      strings:
+      - SendMessageByName
+      - Clock
+      - TodayTalkFlug
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 17
+      debugIndex: 17
+      strings:
+      - 
+      - "\u306B\u3044\u3068"
+      - "<Character=\u306B\u3044\u3068><Off>"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u591C\u306F\u5BDD\u308B\u3060\u3051\u3060\u3088"
+      - Next
+      - 
+      - MiniWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 18
+      debugIndex: 18
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 19
+      debugIndex: 19
+      strings:
+      - CharacterOff
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 20
+      debugIndex: 20
+      strings:
+      - HideMessageWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 21
+      debugIndex: 21
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 22
+      debugIndex: 22
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 23
+      debugIndex: 23
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 24
+      debugIndex: 24
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 25
+      debugIndex: 25
+      strings:
+      - '*second_talk'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 26
+      debugIndex: 26
+      strings:
+      - SendMessageByName
+      - Clock
+      - TodayTalkFlug
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 27
+      debugIndex: 27
+      strings:
+      - FadeOut
+      - black
+      - 
+      - 
+      - 
+      - 
+      - .3
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 28
+      debugIndex: 28
+      strings:
+      - 
+      - NAVI
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u672C\u65E5\u306E\u30B5\u30DD\u30FC\u30C8\u306F\u7D42\u4E86\u3044\u305F\u3057\u307E\u3057\u305F\u3002\n\u304A\u75B2\u308C\u69D8\u3067\u3057\u305F\u3002\n\u5B8C\u74A7\u3067\u3059\u306D\uFF01\uFF01\uFF01\uFF01\uFF01"
+      - Next
+      - 
+      - NormalWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 29
+      debugIndex: 29
+      strings:
+      - CharacterOff
+      - NAVI
+      - 
+      - 
+      - 
+      - 
+      - .1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 30
+      debugIndex: 30
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 31
+      strings:
+      - SendMessageByName
+      - Clock
+      - timeflug_on
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 32
+      debugIndex: 32
+      strings:
+      - SendMessageByName
+      - GameManager
+      - TodayPlus
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 33
+      debugIndex: 33
+      strings:
+      - HideMessageWindow
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 34
+      debugIndex: 34
+      strings:
+      - FadeIn
+      - black
+      - 
+      - 
+      - 
+      - 
+      - .5
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 35
+      debugIndex: 35
+      strings:
+      - Jump
+      - '*support_talk'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 36
+      debugIndex: 36
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 37
+      debugIndex: 37
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 38
+      debugIndex: 38
+      strings:
+      - '*support_talk'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 39
+      debugIndex: 39
+      strings:
+      - 
+      - NAVI
+      - <Character=NAVI><Off>
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u304A\u306F\u3088\u3046\u3054\u3056\u3044\u307E\u3059\uFF01\n\u672C\u65E5\u3082\u30B5\u30DD\u30FC\u30C8\u3092\u9811\u5F35\u3063\u3066\u3044\u304D\u307E\u3057\u3087\u3046\uFF01"
+      - Next
+      - 
+      - TutorialWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 40
+      debugIndex: 40
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - .5
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 41
+      debugIndex: 41
+      strings:
+      - CharacterOff
+      - NAVI
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 42
+      debugIndex: 42
+      strings:
+      - SendMessageByName
+      - Clock
+      - timeflug_off
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 43
+      debugIndex: 43
+      strings:
+      - HideMessageWindow
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 44
+      debugIndex: 44
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 45
+      debugIndex: 45
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 46
+      debugIndex: 46
+      strings:
+      - '*last_talk'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 47
+      debugIndex: 47
+      strings:
+      - SendMessageByName
+      - Clock
+      - TodayTalkFlug2
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 48
+      debugIndex: 48
+      strings:
+      - FadeOut
+      - black
+      - 
+      - 
+      - 
+      - 
+      - .3
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 49
+      debugIndex: 49
+      strings:
+      - 
+      - NAVI
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u672C\u65E5\u306E\u30B5\u30DD\u30FC\u30C8\u306F\u7D42\u4E86\u3044\u305F\u3057\u307E\u3057\u305F\u3002\n\u304A\u75B2\u308C\u69D8\u3067\u3057\u305F\u3002\n\u5B8C\u74A7\u3067\u3059\u306Daaa\uFF01\uFF01"
+      - Next
+      - 
+      - NormalWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 50
+      debugIndex: 50
+      strings:
+      - CharacterOff
+      - NAVI
+      - 
+      - 
+      - 
+      - 
+      - .1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 51
+      debugIndex: 51
+      strings:
+      - Wait
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 52
+      debugIndex: 52
+      strings:
+      - SendMessageByName
+      - Clock
+      - timeflug_on
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 53
+      debugIndex: 53
+      strings:
+      - SendMessageByName
+      - GameManager
+      - TodayPlus
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 54
+      debugIndex: 54
+      strings:
+      - HideMessageWindow
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 55
+      debugIndex: 55
+      strings:
+      - FadeIn
+      - black
+      - 
+      - 
+      - 
+      - 
+      - .5
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 56
+      debugIndex: 56
+      strings:
+      - Jump
+      - '*support_talk'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 57
+      debugIndex: 57
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/MiniTalk/Scenarios/MiniTalk.xls:Start2
+    type: 1
+    textLength: 1218
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 9bfcd6528745b77458274ecfaab0d6ac, type: 3}
   - rows:
@@ -1663,12 +3056,20 @@ MonoBehaviour:
       debugInfo: 
     - rowIndex: 13
       debugIndex: 13
-      strings: []
-      isEmpty: 1
+      strings:
+      - CharacterOff
+      - NAVI
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 14
       debugIndex: 14
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 15
+      debugIndex: 15
       strings:
       - EndScenario
       isEmpty: 0
@@ -1676,6 +3077,6 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/MiniTalk/Scenarios/MiniTalk.xls:Start
     type: 1
-    textLength: 398
+    textLength: 414
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 9bfcd6528745b77458274ecfaab0d6ac, type: 3}

@@ -12,6 +12,7 @@ using UtageExtensions;
         protected AdvEngine advEngine;
 
 
+
         public string ScenarioLabel_01;
 
         public string Moneytalk_down;
@@ -26,11 +27,21 @@ using UtageExtensions;
 
         public string AnotherTalk;
 
+        public string Morning_talk;
+        public string Noon_talk;
+        public string Night_talk;
+
+        public string Last_talk;
+        public string Second_talk;
+
+        public string Support_talk;
+
 
 
 
         public void JumpADV(){
 
+            //GameManagerScript.countlimit　-= 1;
 
 
             if(GameManagerScript.money < 300){
@@ -92,6 +103,9 @@ using UtageExtensions;
 
         void Start(){
 
+
+
+            /*
             if(ExecuteUtage.isClear == false){
 
                 JumpScenario(ScenarioLabel_01);
@@ -100,8 +114,48 @@ using UtageExtensions;
 
                  Debug.Log("どないしよう");
 
-            }
+            }*/
         }
+ 
+
+        public void MorningTalkCO(){
+
+            JumpScenario(Morning_talk);
+
+        }
+
+        public void MorningTalkCO2(){
+
+            JumpScenario(Noon_talk);
+
+        }
+
+        public void MorningTalkCO3(){
+
+            JumpScenario(Night_talk);
+
+        }
+
+        public void MorningTalkCO4(){
+
+            JumpScenario(Last_talk);
+
+        }
+
+        public void MorningTalkCO5(){
+
+            JumpScenario(Second_talk);
+
+        }
+
+        public void MorningTalkCO6(){
+
+            JumpScenario(Support_talk);
+
+        }
+
+
+
 
 
 

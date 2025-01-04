@@ -10,6 +10,16 @@ public class SelectScenario : MonoBehaviour
     [SerializeField] public UtageUguiMainGame MainGame;
 
 
+    public static int utage_hp;
+    public static int utage_money;
+    public static int utage_heart;
+    public static int utage_day;
+    public static int utage_clean;
+
+    public static string utage_player_name;
+
+
+
     private　void Start() {
         
         //育成ゲームを通過していればシーンラベルを飛ばすのを実行する
@@ -36,26 +46,25 @@ public class SelectScenario : MonoBehaviour
         Engine.Param.SetParameterInt("clean",GameManagerScript.clean);
         Engine.Param.SetParameterInt("countlimit",GameManagerScript.countlimit);
 
+        Engine.Param.SetParameterInt("dayttime",ClockUI.dayttime);
+
+        Engine.Param.SetParameterString("player_name",GameManagerScript.player_name);//name
+
     }
 
-    //パラメーターを取得する
+    //パラメーターを取得する ※宴のParameterを　外部というか飛ばしているstatic変数数字加える
     public void LoadCount(){
 
-        if(ExecuteUtage.isClear == true){
+        Debug.Log("どうゆうこと");
+        utage_hp = Engine.Param.GetParameterInt("hp");
+        utage_money = Engine.Param.GetParameterInt("money");
+        utage_heart = Engine.Param.GetParameterInt("heart");
+        utage_day = Engine.Param.GetParameterInt("day");
+        utage_clean = Engine.Param.GetParameterInt("clean");
 
-            //ボタンを介していたら取得しない
-            Debug.Log(GameManagerScript.hp);
+        utage_player_name = Engine.Param.GetParameterString("player_name");
 
-        }else{
-            //パラメーターの取得　※宴から取ってくるときはこちら
-            GameManagerScript.money = Engine.Param.GetParameterInt("money");
-            GameManagerScript.hp = Engine.Param.GetParameterInt("hp");
-            GameManagerScript.heart = Engine.Param.GetParameterInt("heart");
-            GameManagerScript.day = Engine.Param.GetParameterInt("day");
-            GameManagerScript.clean = Engine.Param.GetParameterInt("clean");
-            GameManagerScript.countlimit = Engine.Param.GetParameterInt("countlimit");
 
-        }
     }
 
 
@@ -74,6 +83,11 @@ public class SelectScenario : MonoBehaviour
             Debug.Log("セーブしてません");
 
         }
+    }
+
+    public void Endflug(){
+
+        ExecuteUtage.isClear = false;
     }
 
     // シナリオを呼び出す

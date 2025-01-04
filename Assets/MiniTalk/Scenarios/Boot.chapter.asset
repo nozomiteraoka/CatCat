@@ -68,9 +68,33 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - "\u306B\u3044\u3068"
+      - "\u306B\u3044\u3068"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - mininavi.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - "\u4E3B\u4EBA\u516C"
+      - <param=player_name>
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/MiniTalk/Scenarios/MiniTalk.xls:Character
     type: 1
-    textLength: 198
+    textLength: 238
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 9bfcd6528745b77458274ecfaab0d6ac, type: 3}
   - rows:
@@ -334,9 +358,18 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - player_neat
+      - String
+      - "\u306B\u3044\u3068"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/MiniTalk/Scenarios/MiniTalk.xls:Param
     type: 1
-    textLength: 50
+    textLength: 70
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 9bfcd6528745b77458274ecfaab0d6ac, type: 3}
   - rows:
