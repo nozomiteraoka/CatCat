@@ -296,8 +296,8 @@ MonoBehaviour:
       debugIndex: 31
       strings:
       - 
-      - NAVI
-      - 
+      - "\u6BCD"
+      - "\u96FB\u8A71"
       - 
       - 
       - 
@@ -1422,8 +1422,8 @@ MonoBehaviour:
       debugIndex: 161
       strings:
       - 
-      - NAVI
-      - 
+      - "\u6BCD"
+      - "\u6383\u9664"
       - 
       - 
       - 
@@ -1452,8 +1452,8 @@ MonoBehaviour:
       debugIndex: 164
       strings:
       - 
-      - NAVI
-      - 
+      - "\u6BCD"
+      - "\u6383\u9664"
       - 
       - 
       - 
@@ -2304,7 +2304,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:EndStory
     type: 1
-    textLength: 3544
+    textLength: 3541
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
     entityIndexTbl: 
@@ -2525,7 +2525,7 @@ MonoBehaviour:
       debugIndex: 27
       strings:
       - BgEvent
-      - "\u30D0\u30C3\u30C1_01"
+      - "\u30D0\u30C3\u30C1_02"
       - 
       - 
       isEmpty: 0
@@ -2634,7 +2634,7 @@ MonoBehaviour:
       debugIndex: 39
       strings:
       - BgEventOff
-      - "\u30D0\u30C3\u30C1_01"
+      - "\u30D0\u30C3\u30C1_02"
       - 
       - 
       isEmpty: 0
@@ -4870,9 +4870,41 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
+      - "\u6BCD"
+      - 
+      - "\u96FB\u8A71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - haha_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 5
+      debugIndex: 5
+      strings:
+      - 
+      - 
+      - "\u6383\u9664"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - haha_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Character
     type: 1
-    textLength: 239
+    textLength: 266
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
   - rows:
@@ -5078,9 +5110,30 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 15
+      debugIndex: 15
+      strings:
+      - "\u30D0\u30C3\u30C1_02"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - BatchEvent02.jpg
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Batch02.jpg
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Texture
     type: 1
-    textLength: 338
+    textLength: 376
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
   - rows:
@@ -5917,8 +5970,8 @@ MonoBehaviour:
       debugIndex: 31
       strings:
       - 
-      - NAVI
-      - 
+      - "\u6BCD"
+      - "\u96FB\u8A71"
       - 
       - 
       - 
@@ -7472,8 +7525,8 @@ MonoBehaviour:
       debugIndex: 161
       strings:
       - 
-      - NAVI
-      - 
+      - "\u6BCD"
+      - "\u6383\u9664"
       - 
       - 
       - 
@@ -7515,8 +7568,8 @@ MonoBehaviour:
       debugIndex: 164
       strings:
       - 
-      - NAVI
-      - 
+      - "\u6BCD"
+      - "\u6383\u9664"
       - 
       - 
       - 
@@ -8685,7 +8738,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:EndStory
     type: 1
-    textLength: 3544
+    textLength: 3541
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
   - rows:
@@ -8984,7 +9037,7 @@ MonoBehaviour:
       debugIndex: 27
       strings:
       - BgEvent
-      - "\u30D0\u30C3\u30C1_01"
+      - "\u30D0\u30C3\u30C1_02"
       - 
       - 
       isEmpty: 0
@@ -9133,7 +9186,7 @@ MonoBehaviour:
       debugIndex: 39
       strings:
       - BgEventOff
-      - "\u30D0\u30C3\u30C1_01"
+      - "\u30D0\u30C3\u30C1_02"
       - 
       - 
       isEmpty: 0
