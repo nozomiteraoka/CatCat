@@ -22,17 +22,38 @@ public class GameManagerScript : MonoBehaviour
     public Slider hpslider;
     public Slider cleanslider;
 
-
     public TextMeshProUGUI Moneytext;
     public TextMeshProUGUI Hptext;
     public TextMeshProUGUI Hearttext;
     public TextMeshProUGUI Daytext;
     public TextMeshProUGUI Cleantext;
 
+    /*hp_icon*/
+    public GameObject hp_icon_01;
+    public GameObject hp_icon_02;
+    public GameObject hp_icon_03;
+    public GameObject hp_icon_04;
+    /*hp_color*/
+    public Image hp_pram;
+
     /*room-clean*/
     public GameObject BG01;
     public GameObject BG02;
     public GameObject BG03;
+
+    /*朝・昼・晩*/
+    public GameObject morning;
+    public GameObject noon;
+    public GameObject night;
+
+
+    /*回数制限-Image*/
+    //public int countlth;
+    public int countlOfcount;
+
+    public Image[] countss;
+    public Sprite fullcount;
+    public Sprite emptycount;
 
 
     /*回数制限*/
@@ -56,6 +77,8 @@ public class GameManagerScript : MonoBehaviour
     public GameObject HpPopup;
     public GameObject CleanPopup;
     public GameObject ClearPopup;
+
+    public GameObject ADVPopup;
 
     /*Tutorial*/
     public GameObject TutorialPopup;
@@ -110,10 +133,23 @@ public class GameManagerScript : MonoBehaviour
 
 
         /*room-clean　はじめの部屋は通常です*/
-        if(clean == 200){
+        if(SelectScenario.utage_clean > 60 && SelectScenario.utage_clean == 60){
             BG01.SetActive (true);
             BG02.SetActive (false);
             BG03.SetActive (false);
+
+        }
+        if(SelectScenario.utage_clean > 40 && SelectScenario.utage_clean < 60 && SelectScenario.utage_clean == 40)
+        {
+            BG01.SetActive (false);
+            BG02.SetActive (true);
+            BG03.SetActive (false);
+        }
+        if(SelectScenario.utage_clean > 0 && SelectScenario.utage_clean < 40)
+        {
+            BG01.SetActive (false);
+            BG02.SetActive (false);
+            BG03.SetActive (true);
         }
 
         /*初期設定
@@ -136,6 +172,43 @@ public class GameManagerScript : MonoBehaviour
         HpPopup.SetActive (false);
         CleanPopup.SetActive (false);
         ClearPopup.SetActive (false);
+
+        ADVPopup.SetActive (true);
+
+
+        /*hp_icon設定*/
+        if(hp > 90){
+            hp_icon_01.SetActive (true);
+            hp_icon_02.SetActive (false);
+            hp_icon_03.SetActive (false);
+            hp_icon_04.SetActive (false);
+
+            hp_pram.color = new Color32 (130, 246, 152, 255);
+        }
+        else if(hp > 40 && hp < 90){
+            hp_icon_02.SetActive (true);
+            hp_icon_01.SetActive (false);
+            hp_icon_03.SetActive (false);
+            hp_icon_04.SetActive (false);
+
+            hp_pram.color = new Color32 (252, 225, 131, 255);
+        }
+        else if(hp > 30 && hp < 40){
+            hp_icon_03.SetActive (true);
+            hp_icon_01.SetActive (false);
+            hp_icon_02.SetActive (false);
+            hp_icon_04.SetActive (false);
+
+            hp_pram.color = new Color32 (189, 237, 244, 255);
+        }
+        else if(hp > 0 && hp < 30){
+            hp_icon_04.SetActive (true);
+            hp_icon_01.SetActive (false);
+            hp_icon_02.SetActive (false);
+            hp_icon_03.SetActive (false);
+
+            hp_pram.color = new Color32 (239, 145, 152, 255);
+        }
         
     }
 
@@ -150,7 +223,7 @@ public class GameManagerScript : MonoBehaviour
         money -= 100;
         heart += 100;
         clean -= 10;
-        hp += 100;
+        hp += 10;
 
         countlimit　-= 1;
 
@@ -161,7 +234,7 @@ public class GameManagerScript : MonoBehaviour
     /*寝るボタンを押すと*/
     public void SleepCount(){
         heart += 100;
-        hp += 100;
+        hp += 10;
 
         /*回数制限復活*/
         if(countlimit > 2){
@@ -183,7 +256,7 @@ public class GameManagerScript : MonoBehaviour
     public void CleanCount(){
         clean += 10;
         heart -= 100;
-        hp -= 100;
+        hp -= 10;
 
         countlimit　-= 1;
 
@@ -206,6 +279,26 @@ public class GameManagerScript : MonoBehaviour
 
     }
 
+    /*朝・昼・晩*/
+    public void mornings(){
+        morning.SetActive (true);
+        noon.SetActive (false);
+        night.SetActive (false);
+
+    }
+    public void noons(){
+        noon.SetActive (true);
+        morning.SetActive (false);
+        night.SetActive (false);
+
+    }
+    public void nights(){
+        night.SetActive (true);
+        morning.SetActive (false);
+        noon.SetActive (false);
+
+    }
+
 
     // Update is called once per frame
     void Update()
@@ -223,23 +316,44 @@ public class GameManagerScript : MonoBehaviour
         hpslider.value = hp;
         cleanslider.value = clean;
 
+        /*回数制限-Image*/
+        for(int i = 0; i < countss.Length; i++){
+
+            if(countlimit > countlOfcount){
+                countlimit = countlOfcount;
+            }
+
+            if(i < countlimit){
+                countss[i].sprite = fullcount;
+            }else{
+                countss[i].sprite = emptycount;
+            }
+
+            if(i < countlOfcount){
+                countss[i].enabled = true;
+            }else{
+                countss[i].enabled = false;
+            }
+
+        }
+
         /*回数制限*/
         Countlimittext.text = countlimit.ToString();
 
         /*掃除ー部屋表示*/
-        if(clean > 80){
+        if(clean > 70){
             BG01.SetActive (true);
             BG02.SetActive (false);
             BG03.SetActive (false);
 
         }
-        if(clean < 50)
+        if(clean > 40 && clean < 70)
         {
             BG01.SetActive (false);
             BG02.SetActive (true);
             BG03.SetActive (false);
         }
-        if(clean < 20)
+        if(clean > 0 && clean < 40)
         {
             BG01.SetActive (false);
             BG02.SetActive (false);
@@ -283,8 +397,8 @@ public class GameManagerScript : MonoBehaviour
         if(hp < 0){
             hp = 0;
         }
-        else if(hp > 900){
-            hp = 1000;
+        else if(hp > 90){
+            hp = 100;
         }
 
         if(heart < 0){
@@ -298,13 +412,6 @@ public class GameManagerScript : MonoBehaviour
             day = 0;
         }
 
-        /*掃除ストッパ*/
-        if(clean < -100){
-            clean = -100;
-        }else if(clean > 300){
-            clean = 200;
-        }
-
 
         /*ポップアップ*/
         if(money < 200){
@@ -312,12 +419,16 @@ public class GameManagerScript : MonoBehaviour
             PopUpAll.SetActive (true);
             MoneyPopup.SetActive (true);
 
+            ADVPopup.SetActive (false);
+
         }
 
         if(heart < 200){
 
             PopUpAll.SetActive (true);
             MentalPopup.SetActive (true);
+
+            ADVPopup.SetActive (false);
 
         }
 
@@ -327,20 +438,61 @@ public class GameManagerScript : MonoBehaviour
             PopUpAll.SetActive (true);
             CleanPopup.SetActive (true);
 
+            ADVPopup.SetActive (false);
+
         }
 
-        if(hp < 200){
+        if(hp < 20){
 
             PopUpAll.SetActive (true);
             HpPopup.SetActive (true);
 
+            ADVPopup.SetActive (false);
+
         }
 
-        if(hp > 700 && heart > 700 && clean > 80){
+        if(hp > 70 && heart > 700 && clean > 80){
 
             PopUpAll.SetActive (true);
             ClearPopup.SetActive (true);
 
+            ADVPopup.SetActive (false);
+
+        }
+
+
+        /*hp_icon設定*/
+        if(hp > 90){
+            hp_icon_01.SetActive (true);
+            hp_icon_02.SetActive (false);
+            hp_icon_03.SetActive (false);
+            hp_icon_04.SetActive (false);
+
+            hp_pram.color = new Color32 (130, 246, 152, 255);
+        }
+        else if(hp > 40 && hp < 90){
+            hp_icon_02.SetActive (true);
+            hp_icon_01.SetActive (false);
+            hp_icon_03.SetActive (false);
+            hp_icon_04.SetActive (false);
+
+            hp_pram.color = new Color32 (252, 225, 131, 255);
+        }
+        else if(hp > 30 && hp < 40){
+            hp_icon_03.SetActive (true);
+            hp_icon_01.SetActive (false);
+            hp_icon_02.SetActive (false);
+            hp_icon_04.SetActive (false);
+
+            hp_pram.color = new Color32 (189, 237, 244, 255);
+        }
+        else if(hp > 0 && hp < 30){
+            hp_icon_04.SetActive (true);
+            hp_icon_01.SetActive (false);
+            hp_icon_02.SetActive (false);
+            hp_icon_03.SetActive (false);
+
+            hp_pram.color = new Color32 (239, 145, 152, 255);
         }
 
         

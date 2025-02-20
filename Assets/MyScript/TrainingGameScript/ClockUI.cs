@@ -22,6 +22,7 @@ public class ClockUI : MonoBehaviour
     private static int start_timeflug;//開始有無
 
     public MiniTalkScript miniTalkScript;
+    public GameManagerScript gameManagerScript;
 
 
     void Awake(){
@@ -48,14 +49,17 @@ public class ClockUI : MonoBehaviour
 
         if(dayttime == 0){
             dayt　= 0.33f; // 午前8ジ/24ｆで割る
+            gameManagerScript.mornings();
 
         }
         if(dayttime == 1){
             dayt　= 0.5f;
+            gameManagerScript.noons();
 
         }
         if(dayttime == 2){
             dayt　= 0.8f;
+            gameManagerScript.nights();
 
         }
 
@@ -149,7 +153,7 @@ public class ClockUI : MonoBehaviour
 
 
         /*朝昼晩　フラグ*/
-        if(dayt > 0.35f && dayt < 0.4f){
+        if(dayt > 0.34f && dayt < 0.4f){
 
             //午前中は
             if(isTalk == false){
@@ -160,6 +164,8 @@ public class ClockUI : MonoBehaviour
             }else{
 
             }
+
+            gameManagerScript.mornings();
 
 
 
@@ -178,6 +184,7 @@ public class ClockUI : MonoBehaviour
                 }
 
                 miniTalkScript.MorningTalkCO2();
+                gameManagerScript.noons();
             }
 
         }
@@ -190,6 +197,7 @@ public class ClockUI : MonoBehaviour
             //20時以降は
             if(isTalk == false){
                 miniTalkScript.MorningTalkCO3();
+                gameManagerScript.nights();
             }
 
         }
@@ -202,6 +210,7 @@ public class ClockUI : MonoBehaviour
             }else{
 
             }
+            gameManagerScript.nights();
 
         }
 
@@ -215,7 +224,7 @@ public class ClockUI : MonoBehaviour
         if(GameManagerScript.clean < 20){
             timeflug00();
         }
-        if(GameManagerScript.hp < 200){
+        if(GameManagerScript.hp < 20){
             timeflug00();
         }
 

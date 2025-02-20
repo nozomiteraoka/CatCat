@@ -50,7 +50,7 @@ using UtageExtensions;
 
             }
 
-            else if(GameManagerScript.hp < 300){
+            else if(GameManagerScript.hp < 30){
 
                 JumpScenario(Hptalk_down);
 
@@ -75,7 +75,7 @@ using UtageExtensions;
                 JumpScenario(Moneytalk_up);
             }
 
-            else if(GameManagerScript.hp > 800){
+            else if(GameManagerScript.hp > 80){
 
                 JumpScenario(Hptalk_up);
             }
@@ -85,7 +85,7 @@ using UtageExtensions;
                 JumpScenario(Mentaltalk_up);
             }
 
-            else if(GameManagerScript.clean > 100){
+            else if(GameManagerScript.clean > 10){
 
                 JumpScenario(Cleantalk_up);
             }

@@ -1560,7 +1560,7 @@ MonoBehaviour:
       debugIndex: 175
       strings:
       - Param
-      - hp -=500
+      - hp -=50
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -2304,7 +2304,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:EndStory
     type: 1
-    textLength: 3545
+    textLength: 3544
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
     entityIndexTbl: 
@@ -4407,7 +4407,7 @@ MonoBehaviour:
       debugIndex: 106
       strings:
       - Param
-      - hp +=300
+      - hp +=40
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4794,7 +4794,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Start
     type: 1
-    textLength: 2292
+    textLength: 2291
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
     entityIndexTbl: 
@@ -7646,7 +7646,7 @@ MonoBehaviour:
       debugIndex: 175
       strings:
       - Param
-      - hp -=500
+      - hp -=50
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -8685,7 +8685,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:EndStory
     type: 1
-    textLength: 3545
+    textLength: 3544
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
   - rows:
@@ -11321,7 +11321,7 @@ MonoBehaviour:
       debugIndex: 106
       strings:
       - Param
-      - hp +=300
+      - hp +=40
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -11897,6 +11897,6 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Start
     type: 1
-    textLength: 2292
+    textLength: 2291
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
