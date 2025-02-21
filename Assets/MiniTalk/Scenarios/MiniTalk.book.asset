@@ -45,7 +45,7 @@ MonoBehaviour:
       strings:
       - 
       - "\u306B\u3044\u3068"
-      - 
+      - "<Character=\u306B\u3044\u3068><Off>"
       - 
       - 
       - 
@@ -467,7 +467,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/MiniTalk/Scenarios/MiniTalk.xls:MiniTalk
     type: 1
-    textLength: 713
+    textLength: 733
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 9bfcd6528745b77458274ecfaab0d6ac, type: 3}
     entityIndexTbl: 
@@ -551,7 +551,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u671D\u306F1\u56DE\u3057\u304B\u884C\u52D5\u3057\u305F\u304F\u306A\u3044\u3088"
+      - "\u671D\u306F3\u56DE\u306A\u3089\u884C\u52D5\u3067\u304D\u308B\u304B\u306A"
       - Next
       - 
       - MiniWindow
@@ -615,7 +615,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u663C\u306F1\u56DE\u3057\u304B\u884C\u52D5\u3057\u305F\u304F\u306A\u3044\u3088"
+      - "\u663C\u306F3\u56DE\u3057\u304B\u884C\u52D5\u3057\u305F\u304F\u306A\u3044\u3088"
       - Next
       - 
       - MiniWindow
@@ -766,7 +766,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u672C\u65E5\u306E\u30B5\u30DD\u30FC\u30C8\u306F\u7D42\u4E86\u3044\u305F\u3057\u307E\u3057\u305F\u3002\n\u304A\u75B2\u308C\u69D8\u3067\u3057\u305F\u3002\n\u5B8C\u74A7\u3067\u3059\u306D\uFF01\uFF01\uFF01\uFF01\uFF01"
+      - "\u672C\u65E5\u306E\u30B5\u30DD\u30FC\u30C8\u306F\u7D42\u4E86\u3044\u305F\u3057\u307E\u3057\u305F\u3002\n\u304A\u75B2\u308C\u69D8\u3067\u3057\u305F\u3002\n\u3068\u3066\u3082\u826F\u3044\u6642\u9593\u306B\u5C31\u5BDD\u306B\u5165\u308A\u307E\u3057\u305F"
       - Next
       - 
       - NormalWindow
@@ -1012,7 +1012,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u672C\u65E5\u306E\u30B5\u30DD\u30FC\u30C8\u306F\u7D42\u4E86\u3044\u305F\u3057\u307E\u3057\u305F\u3002\n\u304A\u75B2\u308C\u69D8\u3067\u3057\u305F\u3002\n\u5B8C\u74A7\u3067\u3059\u306Daaa\uFF01\uFF01"
+      - "\u672C\u65E5\u306E\u30B5\u30DD\u30FC\u30C8\u306F\u7D42\u4E86\u3044\u305F\u3057\u307E\u3057\u305F\u3002\n\u304A\u75B2\u308C\u69D8\u3067\u3057\u305F\u3002\n\u591C\u66F4\u304B\u3057\u3057\u306A\u3044\u3088\u3046\u306B\u30B5\u30DD\u30FC\u30C8\u3057\u307E\u3057\u3087\u3046\u306D\uFF01"
       - Next
       - 
       - NormalWindow
@@ -1129,7 +1129,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/MiniTalk/Scenarios/MiniTalk.xls:Start2
     type: 1
-    textLength: 1218
+    textLength: 1234
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 9bfcd6528745b77458274ecfaab0d6ac, type: 3}
     entityIndexTbl: 
@@ -1772,7 +1772,7 @@ MonoBehaviour:
       strings:
       - 
       - "\u306B\u3044\u3068"
-      - 
+      - "<Character=\u306B\u3044\u3068><Off>"
       - 
       - 
       - 
@@ -2200,7 +2200,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/MiniTalk/Scenarios/MiniTalk.xls:MiniTalk
     type: 1
-    textLength: 713
+    textLength: 733
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 9bfcd6528745b77458274ecfaab0d6ac, type: 3}
   - rows:
@@ -2282,7 +2282,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u671D\u306F1\u56DE\u3057\u304B\u884C\u52D5\u3057\u305F\u304F\u306A\u3044\u3088"
+      - "\u671D\u306F3\u56DE\u306A\u3089\u884C\u52D5\u3067\u304D\u308B\u304B\u306A"
       - Next
       - 
       - MiniWindow
@@ -2346,7 +2346,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u663C\u306F1\u56DE\u3057\u304B\u884C\u52D5\u3057\u305F\u304F\u306A\u3044\u3088"
+      - "\u663C\u306F3\u56DE\u3057\u304B\u884C\u52D5\u3057\u305F\u304F\u306A\u3044\u3088"
       - Next
       - 
       - MiniWindow
@@ -2515,7 +2515,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u672C\u65E5\u306E\u30B5\u30DD\u30FC\u30C8\u306F\u7D42\u4E86\u3044\u305F\u3057\u307E\u3057\u305F\u3002\n\u304A\u75B2\u308C\u69D8\u3067\u3057\u305F\u3002\n\u5B8C\u74A7\u3067\u3059\u306D\uFF01\uFF01\uFF01\uFF01\uFF01"
+      - "\u672C\u65E5\u306E\u30B5\u30DD\u30FC\u30C8\u306F\u7D42\u4E86\u3044\u305F\u3057\u307E\u3057\u305F\u3002\n\u304A\u75B2\u308C\u69D8\u3067\u3057\u305F\u3002\n\u3068\u3066\u3082\u826F\u3044\u6642\u9593\u306B\u5C31\u5BDD\u306B\u5165\u308A\u307E\u3057\u305F"
       - Next
       - 
       - NormalWindow
@@ -2773,7 +2773,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u672C\u65E5\u306E\u30B5\u30DD\u30FC\u30C8\u306F\u7D42\u4E86\u3044\u305F\u3057\u307E\u3057\u305F\u3002\n\u304A\u75B2\u308C\u69D8\u3067\u3057\u305F\u3002\n\u5B8C\u74A7\u3067\u3059\u306Daaa\uFF01\uFF01"
+      - "\u672C\u65E5\u306E\u30B5\u30DD\u30FC\u30C8\u306F\u7D42\u4E86\u3044\u305F\u3057\u307E\u3057\u305F\u3002\n\u304A\u75B2\u308C\u69D8\u3067\u3057\u305F\u3002\n\u591C\u66F4\u304B\u3057\u3057\u306A\u3044\u3088\u3046\u306B\u30B5\u30DD\u30FC\u30C8\u3057\u307E\u3057\u3087\u3046\u306D\uFF01"
       - Next
       - 
       - NormalWindow
@@ -2890,7 +2890,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/MiniTalk/Scenarios/MiniTalk.xls:Start2
     type: 1
-    textLength: 1218
+    textLength: 1234
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 9bfcd6528745b77458274ecfaab0d6ac, type: 3}
   - rows:
