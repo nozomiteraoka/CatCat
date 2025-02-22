@@ -4521,8 +4521,8 @@ MonoBehaviour:
       debugIndex: 131
       strings:
       - 
-      - "\u4E3B\u4EBA\u516C"
-      - 
+      - NAVI
+      - <Character=NAVI><Off>
       - 
       - 
       - 
@@ -4540,9 +4540,9 @@ MonoBehaviour:
       - '*Story01_q3'
       - 
       - 
-      - 
-      - 
-      - 
+      - SelectionItem
+      - 0
+      - 180
       - 
       - "\u306F\u3044"
       isEmpty: 0
@@ -4555,9 +4555,9 @@ MonoBehaviour:
       - '*Name_In'
       - 
       - 
-      - 
-      - 
-      - 
+      - SelectionItem
+      - 0
+      - 80
       - 
       - "\u3044\u3044\u3048"
       isEmpty: 0
@@ -4794,7 +4794,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Start
     type: 1
-    textLength: 2291
+    textLength: 2346
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
     entityIndexTbl: 
@@ -4864,7 +4864,7 @@ MonoBehaviour:
       - 
       - 2.5
       - 
-      - neat_model.prefab
+      - neet_model.prefab
       - 
       - Custom
       isEmpty: 0
@@ -11629,8 +11629,8 @@ MonoBehaviour:
       debugIndex: 131
       strings:
       - 
-      - "\u4E3B\u4EBA\u516C"
-      - 
+      - NAVI
+      - <Character=NAVI><Off>
       - 
       - 
       - 
@@ -11648,9 +11648,9 @@ MonoBehaviour:
       - '*Story01_q3'
       - 
       - 
-      - 
-      - 
-      - 
+      - SelectionItem
+      - 0
+      - 180
       - 
       - "\u306F\u3044"
       isEmpty: 0
@@ -11663,9 +11663,9 @@ MonoBehaviour:
       - '*Name_In'
       - 
       - 
-      - 
-      - 
-      - 
+      - SelectionItem
+      - 0
+      - 80
       - 
       - "\u3044\u3044\u3048"
       isEmpty: 0
@@ -11950,6 +11950,6 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/NeatsGame/Scenarios/NeatsGame.xls:Start
     type: 1
-    textLength: 2291
+    textLength: 2346
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 75b21d474be0a1448a45da899da21495, type: 3}
